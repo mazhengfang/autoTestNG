@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="autoTestNG(failed)">
+    <classes>
+      <class name="E2E.TestSet_H5_003">
+        <methods>
+          <include name="test006_校验定向券"/>
+          <include name="closeWindows"/>
+          <include name="test004_定向券页面获取"/>
+          <include name="test003_创建H5定向券"/>
+          <include name="init"/>
+          <include name="test001_启动后台"/>
+          <include name="test005_校验定向券"/>
+          <include name="test002_创建活动页面"/>
+        </methods>
+      </class> <!-- E2E.TestSet_H5_003 -->
+    </classes>
+  </test> <!-- autoTestNG(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

@@ -1,0 +1,21 @@
+{
+  "productEstimatePrices_TestBody_1":
+  {
+    "user": {
+      "person_id": "15005083203"
+    },
+    "client_name": "MPMSTORE",
+    "products": [
+      {
+        "dsm_code":"308291",
+        "model_code":"8641950",
+        "sku_id":"4272581",
+        "unit_price":399.9,
+        "discount_amount":100.0,
+        "sale_price":299.9,
+        "quantity":1
+      }
+    ],
+    "occurs_time": "2022-12-14T14:54:06.151+0000"
+  }
+}

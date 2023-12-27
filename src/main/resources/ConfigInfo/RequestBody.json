@@ -1,0 +1,66 @@
+{
+  "RequestBody_Token": [
+    {
+      "name": "client_name",
+      "value": "MPMSTORE"
+    },
+    {
+      "name": "person_id",
+      "value": "15005083203"
+    }
+  ],
+  "RequestBody_UnfreezeCoupons":
+    {
+      "person_info":{
+        "person_id":"15005083203"
+      },
+      "client_name":"MPMSTORE",
+      "order_source":"FACADE"
+    },
+  "RequestBody_ApplyPromotionPlans":
+  {
+    "person_info":{
+      "person_id":"15005083203",
+      "external_user_info":null
+    },
+    "client_name":"MPMSTORE",
+    "mirror_code":"aske1m3dane19f1dfa",
+    "coupon_codes":["23022100264300002z8d"],
+    "products":[
+      {
+        "dsm_code":"149118",
+        "model_code":"8384321",
+        "sku_id":"2194336",
+        "unit_price":36,
+        "discount_amount":0.0,
+        "sale_price":36,
+        "quantity":1
+      }
+    ],
+    "shipping_info":null,
+    "occurs_time":1677138734,
+    "order_source":"FACADE"
+  },
+  "RequestBody_RefundCoupon":
+  {
+    "person_info":{
+      "person_id":"15005083203"
+    },
+    "client_name":"MPMSTORE",
+    "order_source":"FACADE",
+    "refund_apply_id":"",
+    "partial_refund":"false"
+  },
+
+  "RequestBody_UserAvailableCoupon":
+  {
+    "products": [
+      {
+        "model_code": "520667",
+        "dsm_code":"111",
+        "sku_id":"222"
+      }
+    ]
+  }
+
+}

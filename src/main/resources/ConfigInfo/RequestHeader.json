@@ -1,0 +1,34 @@
+{
+  "RequestHeader": [
+    {
+      "name": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "name": "charset",
+      "value": "utf-8"
+    },
+    {
+      "name": "x-api-key",
+      "value": "7cc66128-1829-4bad-b19a-99bf3bc65888"
+    },
+    {
+      "name": "client-name",
+      "value": "MPMSTORE"
+    },
+    {
+      "name": "open-id",
+      "value": "ob0m-4g1FK61aPbt8GFY6m9jB2SA"
+    }
+  ],
+  "RequestHeader_Activity": [
+    {
+      "name": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "name": "charset",
+      "value": "utf-8"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "cartEstimatePrices_ResponseData_CouponPlans_1":
+    {
+      "stock_name": "[Auto]全场券202309251041",
+      "stock_id": 2309250031100002,
+      "coupon_type": "MERCHANT",
+      "scope": "ALL",
+      "coupon_value": {
+        "amount": 360.00
+      },
+      "coupon_condition": {
+        "transaction_minimum": 398.00
+      },
+      "number_of_usable": 1,
+      "instances": [
+        {
+          "code": "23092500364300000205",
+          "available_begin_time": 1695609677000,
+          "available_end_time": 1695645617000
+        }
+      ]
+    }
+  ,
+  "cartEstimatePrices_ResponseData_BasicInfo_1":
+  {
+    "available": true,
+    "subtotal_amount": 519.7,
+    "product_discount_amount": 100.0,
+    "coupon_discount_amount": 360.00,
+    "actual_amount": 59.70
+  },
+  "cartEstimatePrices_ResponseData_CouponPlans_2":
+    {
+      "stock_name": "[Auto]全场券202309251042",
+      "stock_id": 2309250051100002,
+      "coupon_type": "MERCHANT",
+      "scope": "ALL",
+      "coupon_value": {
+        "amount": 370.00
+      },
+      "coupon_condition": {
+        "transaction_minimum": 398.00
+      },
+      "number_of_usable": 1,
+      "instances": [
+        {
+          "code": "23092500564300000523",
+          "available_begin_time": 1695625157000,
+          "available_end_time": 1695645617000
+        }
+      ]
+    }
+  ,
+  "cartEstimatePrices_ResponseData_BasicInfo_2":
+  {
+    "available": true,
+    "subtotal_amount": 519.7,
+    "product_discount_amount": 100.0,
+    "coupon_discount_amount": 370.00,
+    "actual_amount": 49.70
+  },
+  "cartEstimatePrices_ResponseData_BasicInfo_3":
+  {
+    "available": true,
+    "subtotal_amount": 519.7,
+    "product_discount_amount": 100.0,
+    "coupon_discount_amount": 10.00,
+    "actual_amount": 409.70
+  },
+  "cartEstimatePrices_ResponseData_CouponPlans_3":
+  {
+    "stock_name": "[Auto]单品券202311021612",
+    "stock_id": 2311020023100002,
+    "coupon_type": "MERCHANT",
+    "scope": "PRODUCT",
+    "coupon_value": {
+      "amount": 10.00
+    },
+    "coupon_condition": {
+      "transaction_minimum": 110.00
+    },
+    "number_of_usable": 1,
+    "instances": [
+      {
+        "code": "2311020026430000021a",
+        "available_begin_time": 1698912770000,
+        "available_end_time": 1698916610000
+      }
+    ]
+  },
+  "cartEstimatePrices_ResponseData_BasicInfo_4":
+  {
+    "available": true,
+    "subtotal_amount": 519.7,
+    "product_discount_amount": 100.0,
+    "coupon_discount_amount": 20.00,
+    "actual_amount": 399.70
+  },
+  "cartEstimatePrices_ResponseData_CouponPlans_4":
+  {
+    "stock_name": "[Auto]单品券202311021612",
+    "stock_id": 2311020023100002,
+    "coupon_type": "MERCHANT",
+    "scope": "PRODUCT",
+    "coupon_value": {
+      "amount": 20.00
+    },
+    "coupon_condition": {
+      "transaction_minimum": 110.00
+    },
+    "number_of_usable": 1,
+    "instances": [
+      {
+        "code": "2311020026430000021a",
+        "available_begin_time": 1698912770000,
+        "available_end_time": 1698916610000
+      }
+    ]
+  },
+  "cartEstimatePrices_ResponseData_BasicInfo_5":
+  {
+    "available": true,
+    "subtotal_amount": 519.7,
+    "product_discount_amount": 100.0,
+    "coupon_discount_amount": 5.00,
+    "actual_amount": 414.70
+  },
+  "cartEstimatePrices_ResponseData_CouponPlans_5":
+  {
+    "stock_name": "[Auto]黑名单202311141701",
+    "stock_id": 2311140041100002,
+    "coupon_type": "MERCHANT",
+    "scope": "ALL",
+    "coupon_value": {
+      "amount": 5.00
+    },
+    "coupon_condition": {
+      "transaction_minimum": 105.00
+    },
+    "number_of_usable": 1,
+    "instances": [
+      {
+        "code": "23111400464300002uab",
+        "available_begin_time": 1699952471000,
+        "available_end_time": 1699956311000
+      }
+    ]
+  },
+  "cartEstimatePrices_ResponseData_BasicInfo_6":
+  {
+    "available": true,
+    "subtotal_amount": 519.7,
+    "product_discount_amount": 100.0,
+    "coupon_discount_amount": 10.00,
+    "actual_amount": 409.70
+  },
+  "cartEstimatePrices_ResponseData_CouponPlans_6":
+  {
+    "stock_name": "[Auto]黑名单202311141701",
+    "stock_id": 2311140041100002,
+    "coupon_type": "MERCHANT",
+    "scope": "ALL",
+    "coupon_value": {
+      "amount": 10.00
+    },
+    "coupon_condition": {
+      "transaction_minimum": 105.00
+    },
+    "number_of_usable": 1,
+    "instances": [
+      {
+        "code": "23111400464300002uab",
+        "available_begin_time": 1699952471000,
+        "available_end_time": 1699956311000
+      }
+    ]
+  }
+
+  }

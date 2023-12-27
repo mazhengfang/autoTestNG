@@ -1,0 +1,1257 @@
+{
+  "DesignatedUsersActivity": [
+    {
+      "Key": "Active Status",
+      "Value": "Examination passed"
+    },
+    {
+      "Key": "Belong to Campaign",
+      "Value": "暑期嘉年华"
+    },
+    {
+      "Key": "Coupon Description",
+      "Value": "[AutoScript]自动化创建活动"
+    },
+    {
+      "Key": "Max Distribution",
+      "Value": "10000"
+    },
+    {
+      "Key": "Max Num by Users",
+      "Value": "10"
+    },
+    {
+      "Key": "Max Num Issued Per Day",
+      "Value": "1000"
+    },
+    {
+      "Key": "Belonging Channel",
+      "Value": "B2C"
+    },
+    {
+      "Key": "Test Batch Logo",
+      "Value": "正式批次"
+    },
+    {
+      "Key": "Distribute Channel",
+      "Value": "DTC - MPMSTORE"
+    },
+    {
+      "Key": "Effective Channel",
+      "Value": "DTC - MPMSTORE"
+    },
+    {
+      "Key": "H5",
+      "Value": "-"
+    },
+    {
+      "Key": "Participating Users",
+      "Value": "Designated users"
+    },
+    {
+      "Key": "Applicable Goods Type",
+      "Value": "全场券"
+    },
+    {
+      "Key": "Discount Coupon Type",
+      "Value": "Voucher"
+    },
+    {
+      "Key": "Consumption Threshold",
+      "Value": "105 元"
+    },
+    {
+      "Key": "Discount Price",
+      "Value": "5 元"
+    },
+    {
+      "Key": "Stacking Checked",
+      "Value": "false"
+    }
+  ],
+  "H5DesignatedUsersActivity": [
+    {
+      "Key": "Active Status",
+      "Value": "Examination passed"
+    },
+    {
+      "Key": "Belong to Campaign",
+      "Value": "暑期嘉年华"
+    },
+    {
+      "Key": "Coupon Description",
+      "Value": "[AutoScript]自动化创建活动"
+    },
+    {
+      "Key": "Max Distribution",
+      "Value": "10000"
+    },
+    {
+      "Key": "Max Num by Users",
+      "Value": "10"
+    },
+    {
+      "Key": "Max Num Issued Per Day",
+      "Value": "1000"
+    },
+    {
+      "Key": "Belonging Channel",
+      "Value": "B2C"
+    },
+    {
+      "Key": "Test Batch Logo",
+      "Value": "正式批次"
+    },
+    {
+      "Key": "Distribute Channel",
+      "Value": "活动页"
+    },
+    {
+      "Key": "url",
+      "Value": "https://H5.com"
+    },
+    {
+      "Key": "Effective Channel",
+      "Value": "DTC - MPMSTORE"
+    },
+    {
+      "Key": "H5",
+      "Value": "-"
+    },
+    {
+      "Key": "Participating Users",
+      "Value": "Designated users"
+    },
+    {
+      "Key": "Applicable Goods Type",
+      "Value": "全场券"
+    },
+    {
+      "Key": "Discount Coupon Type",
+      "Value": "Voucher"
+    },
+    {
+      "Key": "Consumption Threshold",
+      "Value": "105 元"
+    },
+    {
+      "Key": "Discount Price",
+      "Value": "5 元"
+    },
+    {
+      "Key": "Stacking Checked",
+      "Value": "false"
+    }
+  ],
+  "DesignatedUsersProductActivity": [
+    {
+      "Key": "Active Status",
+      "Value": "Examination passed"
+    },
+    {
+      "Key": "Belong to Campaign",
+      "Value": "暑期嘉年华"
+    },
+    {
+      "Key": "Coupon Description",
+      "Value": "[AutoScript]自动化创建活动"
+    },
+    {
+      "Key": "Max Distribution",
+      "Value": "10000"
+    },
+    {
+      "Key": "Max Num by Users",
+      "Value": "10"
+    },
+    {
+      "Key": "Max Num Issued Per Day",
+      "Value": "1000"
+    },
+    {
+      "Key": "Belonging Channel",
+      "Value": "B2C"
+    },
+    {
+      "Key": "Test Batch Logo",
+      "Value": "正式批次"
+    },
+    {
+      "Key": "Distribute Channel",
+      "Value": "DTC - MPMSTORE"
+    },
+    {
+      "Key": "Effective Channel",
+      "Value": "DTC - MPMSTORE"
+    },
+    {
+      "Key": "H5",
+      "Value": "-"
+    },
+    {
+      "Key": "Participating Users",
+      "Value": "Designated users"
+    },
+    {
+      "Key": "Applicable Goods Type",
+      "Value": "单品券"
+    },
+    {
+      "Key": "Discount Coupon Type",
+      "Value": "Voucher"
+    },
+    {
+      "Key": "Consumption Threshold",
+      "Value": "105 元"
+    },
+    {
+      "Key": "Discount Price",
+      "Value": "5 元"
+    },
+    {
+      "Key": "Stacking Checked",
+      "Value": "false"
+    }
+  ]
+  ,
+  "NormalActivity": [
+    {
+      "Key": "Active Status",
+      "Value": "Examination passed"
+    },
+    {
+      "Key": "Belong to Campaign",
+      "Value": "暑期嘉年华"
+    },
+    {
+      "Key": "Coupon Description",
+      "Value": "[AutoScript]自动化创建活动"
+    },
+    {
+      "Key": "Max Distribution",
+      "Value": "10000"
+    },
+    {
+      "Key": "Max Num by Users",
+      "Value": "10"
+    },
+    {
+      "Key": "Max Num Issued Per Day",
+      "Value": "1000"
+    },
+    {
+      "Key": "Belonging Channel",
+      "Value": "B2C"
+    },
+    {
+      "Key": "Test Batch Logo",
+      "Value": "正式批次"
+    },
+    {
+      "Key": "Distribute Channel",
+      "Value": "DTC - MPMSTORE"
+    },
+    {
+      "Key": "Effective Channel",
+      "Value": "DTC - MPMSTORE"
+    },
+    {
+      "Key": "H5",
+      "Value": "-"
+    },
+    {
+      "Key": "Participating Users",
+      "Value": "All users"
+    },
+    {
+      "Key": "Applicable Goods Type",
+      "Value": "全场券"
+    },
+    {
+      "Key": "Discount Coupon Type",
+      "Value": "Voucher"
+    },
+    {
+      "Key": "Consumption Threshold",
+      "Value": "105 元"
+    },
+    {
+      "Key": "Discount Price",
+      "Value": "5 元"
+    },
+    {
+      "Key": "Stacking Checked",
+      "Value": "false"
+    }
+  ],
+  "ProductActivity": [
+    {
+      "Key": "Active Status",
+      "Value": "Examination passed"
+    },
+    {
+      "Key": "Belong to Campaign",
+      "Value": "暑期嘉年华"
+    },
+    {
+      "Key": "Coupon Description",
+      "Value": "[AutoScript]自动化创建活动"
+    },
+    {
+      "Key": "Max Distribution",
+      "Value": "10000"
+    },
+    {
+      "Key": "Max Num by Users",
+      "Value": "10"
+    },
+    {
+      "Key": "Max Num Issued Per Day",
+      "Value": "1000"
+    },
+    {
+      "Key": "Belonging Channel",
+      "Value": "B2C"
+    },
+    {
+      "Key": "Test Batch Logo",
+      "Value": "正式批次"
+    },
+    {
+      "Key": "Distribute Channel",
+      "Value": "DTC - MPMSTORE"
+    },
+    {
+      "Key": "Effective Channel",
+      "Value": "DTC - MPMSTORE"
+    },
+    {
+      "Key": "H5",
+      "Value": "-"
+    },
+    {
+      "Key": "Participating Users",
+      "Value": "All users"
+    },
+    {
+      "Key": "Applicable Goods Type",
+      "Value": "单品券"
+    },
+    {
+      "Key": "Discount Coupon Type",
+      "Value": "Voucher"
+    },
+    {
+      "Key": "Consumption Threshold",
+      "Value": "105 元"
+    },
+    {
+      "Key": "Discount Price",
+      "Value": "5 元"
+    },
+    {
+      "Key": "Stacking Checked",
+      "Value": "false"
+    }
+  ],
+  "LiveRoomNormalActivity": [
+    {
+      "Key": "Active Status",
+      "Value": "Examination passed"
+    },
+    {
+      "Key": "Belong to Campaign",
+      "Value": "暑期嘉年华"
+    },
+    {
+      "Key": "Coupon Description",
+      "Value": "[AutoScript]自动化创建活动"
+    },
+    {
+      "Key": "Max Distribution",
+      "Value": "10000"
+    },
+    {
+      "Key": "Max Num by Users",
+      "Value": "10"
+    },
+    {
+      "Key": "Max Num Issued Per Day",
+      "Value": "1000"
+    },
+    {
+      "Key": "Belonging Channel",
+      "Value": "B2C"
+    },
+    {
+      "Key": "Test Batch Logo",
+      "Value": "正式批次"
+    },
+    {
+      "Key": "Distribute Channel",
+      "Value": "直播间"
+    },
+    {
+      "Key": "Effective Channel",
+      "Value": "DTC - MPMSTORE"
+    },
+    {
+      "Key": "H5",
+      "Value": "-"
+    },
+    {
+      "Key": "Participating Users",
+      "Value": "All users"
+    },
+    {
+      "Key": "Applicable Goods Type",
+      "Value": "全场券"
+    },
+    {
+      "Key": "Discount Coupon Type",
+      "Value": "Voucher"
+    },
+    {
+      "Key": "Consumption Threshold",
+      "Value": "105 元"
+    },
+    {
+      "Key": "Discount Price",
+      "Value": "5 元"
+    },
+    {
+      "Key": "Stacking Checked",
+      "Value": "false"
+    }
+  ],
+  "LiveRoomProductActivity": [
+    {
+      "Key": "Active Status",
+      "Value": "Examination passed"
+    },
+    {
+      "Key": "Belong to Campaign",
+      "Value": "暑期嘉年华"
+    },
+    {
+      "Key": "Coupon Description",
+      "Value": "[AutoScript]自动化创建活动"
+    },
+    {
+      "Key": "Max Distribution",
+      "Value": "10000"
+    },
+    {
+      "Key": "Max Num by Users",
+      "Value": "10"
+    },
+    {
+      "Key": "Max Num Issued Per Day",
+      "Value": "1000"
+    },
+    {
+      "Key": "Belonging Channel",
+      "Value": "B2C"
+    },
+    {
+      "Key": "Test Batch Logo",
+      "Value": "正式批次"
+    },
+    {
+      "Key": "Distribute Channel",
+      "Value": "直播间"
+    },
+    {
+      "Key": "Effective Channel",
+      "Value": "DTC - MPMSTORE"
+    },
+    {
+      "Key": "H5",
+      "Value": "-"
+    },
+    {
+      "Key": "Participating Users",
+      "Value": "All users"
+    },
+    {
+      "Key": "Applicable Goods Type",
+      "Value": "单品券"
+    },
+    {
+      "Key": "Discount Coupon Type",
+      "Value": "Voucher"
+    },
+    {
+      "Key": "Consumption Threshold",
+      "Value": "105 元"
+    },
+    {
+      "Key": "Discount Price",
+      "Value": "5 元"
+    },
+    {
+      "Key": "Stacking Checked",
+      "Value": "false"
+    }
+  ],
+  "BlackModelListNormalActivity": [
+    {
+      "Key": "Active Status",
+      "Value": "Examination passed"
+    },
+    {
+      "Key": "Belong to Campaign",
+      "Value": "暑期嘉年华"
+    },
+    {
+      "Key": "Coupon Description",
+      "Value": "[AutoScript]自动化创建活动"
+    },
+    {
+      "Key": "Max Distribution",
+      "Value": "10000"
+    },
+    {
+      "Key": "Max Num by Users",
+      "Value": "10"
+    },
+    {
+      "Key": "Max Num Issued Per Day",
+      "Value": "1000"
+    },
+    {
+      "Key": "Belonging Channel",
+      "Value": "B2C"
+    },
+    {
+      "Key": "Test Batch Logo",
+      "Value": "正式批次"
+    },
+    {
+      "Key": "Distribute Channel",
+      "Value": "DTC - MPMSTORE"
+    },
+    {
+      "Key": "Effective Channel",
+      "Value": "DTC - MPMSTORE"
+    },
+    {
+      "Key": "H5",
+      "Value": "-"
+    },
+    {
+      "Key": "Participating Users",
+      "Value": "All users"
+    },
+    {
+      "Key": "Applicable Goods Type",
+      "Value": "全场券"
+    },
+    {
+      "Key": "Discount Coupon Type",
+      "Value": "Voucher"
+    },
+    {
+      "Key": "Consumption Threshold",
+      "Value": "105 元"
+    },
+    {
+      "Key": "Discount Price",
+      "Value": "5 元"
+    },
+    {
+      "Key": "Not Applicable Good Type",
+      "Value": "单品"
+    },
+    {
+      "Key": "8492960",
+      "Value": "8492960"
+    },
+    {
+      "Key": "8363990",
+      "Value": "8363990"
+    },
+    {
+      "Key": "8324625",
+      "Value": "8324625"
+    },
+    {
+      "Key": "Stacking Checked",
+      "Value": "false"
+    }
+  ],
+  "H5BlackModelListNormalActivity": [
+    {
+      "Key": "Active Status",
+      "Value": "Examination passed"
+    },
+    {
+      "Key": "Belong to Campaign",
+      "Value": "暑期嘉年华"
+    },
+    {
+      "Key": "Coupon Description",
+      "Value": "[AutoScript]自动化创建活动"
+    },
+    {
+      "Key": "Max Distribution",
+      "Value": "10000"
+    },
+    {
+      "Key": "Max Num by Users",
+      "Value": "10"
+    },
+    {
+      "Key": "Max Num Issued Per Day",
+      "Value": "1000"
+    },
+    {
+      "Key": "Belonging Channel",
+      "Value": "B2C"
+    },
+    {
+      "Key": "Test Batch Logo",
+      "Value": "正式批次"
+    },
+    {
+      "Key": "Distribute Channel",
+      "Value": "活动页"
+    },
+    {
+      "Key": "url",
+      "Value": "https://H5.com"
+    },
+    {
+      "Key": "Effective Channel",
+      "Value": "DTC - MPMSTORE"
+    },
+    {
+      "Key": "H5",
+      "Value": "-"
+    },
+    {
+      "Key": "Participating Users",
+      "Value": "All users"
+    },
+    {
+      "Key": "Applicable Goods Type",
+      "Value": "全场券"
+    },
+    {
+      "Key": "Discount Coupon Type",
+      "Value": "Voucher"
+    },
+    {
+      "Key": "Consumption Threshold",
+      "Value": "105 元"
+    },
+    {
+      "Key": "Discount Price",
+      "Value": "5 元"
+    },
+    {
+      "Key": "Not Applicable Good Type",
+      "Value": "单品"
+    },
+    {
+      "Key": "8492960",
+      "Value": "8492960"
+    },
+    {
+      "Key": "8363990",
+      "Value": "8363990"
+    },
+    {
+      "Key": "8324625",
+      "Value": "8324625"
+    },
+    {
+      "Key": "Stacking Checked",
+      "Value": "false"
+    }
+  ],
+  "LiveRoomProductActivityStackingProduct": [
+    {
+      "Key": "Active Status",
+      "Value": "Examination passed"
+    },
+    {
+      "Key": "Belong to Campaign",
+      "Value": "暑期嘉年华"
+    },
+    {
+      "Key": "Coupon Description",
+      "Value": "[AutoScript]自动化创建活动"
+    },
+    {
+      "Key": "Max Distribution",
+      "Value": "10000"
+    },
+    {
+      "Key": "Max Num by Users",
+      "Value": "10"
+    },
+    {
+      "Key": "Max Num Issued Per Day",
+      "Value": "1000"
+    },
+    {
+      "Key": "Belonging Channel",
+      "Value": "B2C"
+    },
+    {
+      "Key": "Test Batch Logo",
+      "Value": "正式批次"
+    },
+    {
+      "Key": "Distribute Channel",
+      "Value": "直播间"
+    },
+    {
+      "Key": "Effective Channel",
+      "Value": "DTC - MPMSTORE"
+    },
+    {
+      "Key": "H5",
+      "Value": "-"
+    },
+    {
+      "Key": "Participating Users",
+      "Value": "All users"
+    },
+    {
+      "Key": "Applicable Goods Type",
+      "Value": "单品券"
+    },
+    {
+      "Key": "Discount Coupon Type",
+      "Value": "Voucher"
+    },
+    {
+      "Key": "Consumption Threshold",
+      "Value": "105 元"
+    },
+    {
+      "Key": "Discount Price",
+      "Value": "5 元"
+    },
+    {
+      "Key": "Stacking Checked",
+      "Value": "true"
+    },
+    {
+      "Key": "Product Checked",
+      "Value": "true"
+    }
+  ],
+  "ProductActivityStackingProduct": [
+    {
+      "Key": "Active Status",
+      "Value": "Examination passed"
+    },
+    {
+      "Key": "Belong to Campaign",
+      "Value": "暑期嘉年华"
+    },
+    {
+      "Key": "Coupon Description",
+      "Value": "[AutoScript]自动化创建活动"
+    },
+    {
+      "Key": "Max Distribution",
+      "Value": "10000"
+    },
+    {
+      "Key": "Max Num by Users",
+      "Value": "10"
+    },
+    {
+      "Key": "Max Num Issued Per Day",
+      "Value": "1000"
+    },
+    {
+      "Key": "Belonging Channel",
+      "Value": "B2C"
+    },
+    {
+      "Key": "Test Batch Logo",
+      "Value": "正式批次"
+    },
+    {
+      "Key": "Distribute Channel",
+      "Value": "DTC - MPMSTORE"
+    },
+    {
+      "Key": "Effective Channel",
+      "Value": "DTC - MPMSTORE"
+    },
+    {
+      "Key": "H5",
+      "Value": "-"
+    },
+    {
+      "Key": "Participating Users",
+      "Value": "All users"
+    },
+    {
+      "Key": "Applicable Goods Type",
+      "Value": "单品券"
+    },
+    {
+      "Key": "Discount Coupon Type",
+      "Value": "Voucher"
+    },
+    {
+      "Key": "Consumption Threshold",
+      "Value": "105 元"
+    },
+    {
+      "Key": "Discount Price",
+      "Value": "5 元"
+    },
+    {
+      "Key": "Stacking Checked",
+      "Value": "true"
+    },
+    {
+      "Key": "Product Checked",
+      "Value": "true"
+    }
+  ],
+  "NormalActivityStackingProduct": [
+    {
+      "Key": "Active Status",
+      "Value": "Examination passed"
+    },
+    {
+      "Key": "Belong to Campaign",
+      "Value": "暑期嘉年华"
+    },
+    {
+      "Key": "Coupon Description",
+      "Value": "[AutoScript]自动化创建活动"
+    },
+    {
+      "Key": "Max Distribution",
+      "Value": "10000"
+    },
+    {
+      "Key": "Max Num by Users",
+      "Value": "10"
+    },
+    {
+      "Key": "Max Num Issued Per Day",
+      "Value": "1000"
+    },
+    {
+      "Key": "Belonging Channel",
+      "Value": "B2C"
+    },
+    {
+      "Key": "Test Batch Logo",
+      "Value": "正式批次"
+    },
+    {
+      "Key": "Distribute Channel",
+      "Value": "DTC - MPMSTORE"
+    },
+    {
+      "Key": "Effective Channel",
+      "Value": "DTC - MPMSTORE"
+    },
+    {
+      "Key": "H5",
+      "Value": "-"
+    },
+    {
+      "Key": "Participating Users",
+      "Value": "All users"
+    },
+    {
+      "Key": "Applicable Goods Type",
+      "Value": "全场券"
+    },
+    {
+      "Key": "Discount Coupon Type",
+      "Value": "Voucher"
+    },
+    {
+      "Key": "Consumption Threshold",
+      "Value": "105 元"
+    },
+    {
+      "Key": "Discount Price",
+      "Value": "5 元"
+    },
+    {
+      "Key": "Stacking Checked",
+      "Value": "true"
+    },
+    {
+      "Key": "Product Checked",
+      "Value": "true"
+    }
+  ],
+  "LiveRoomProductActivity": [
+    {
+      "Key": "Active Status",
+      "Value": "Examination passed"
+    },
+    {
+      "Key": "Belong to Campaign",
+      "Value": "暑期嘉年华"
+    },
+    {
+      "Key": "Coupon Description",
+      "Value": "[AutoScript]自动化创建活动"
+    },
+    {
+      "Key": "Max Distribution",
+      "Value": "10000"
+    },
+    {
+      "Key": "Max Num by Users",
+      "Value": "10"
+    },
+    {
+      "Key": "Max Num Issued Per Day",
+      "Value": "1000"
+    },
+    {
+      "Key": "Belonging Channel",
+      "Value": "B2C"
+    },
+    {
+      "Key": "Test Batch Logo",
+      "Value": "正式批次"
+    },
+    {
+      "Key": "Distribute Channel",
+      "Value": "直播间"
+    },
+    {
+      "Key": "Effective Channel",
+      "Value": "DTC - MPMSTORE"
+    },
+    {
+      "Key": "H5",
+      "Value": "-"
+    },
+    {
+      "Key": "Participating Users",
+      "Value": "All users"
+    },
+    {
+      "Key": "Applicable Goods Type",
+      "Value": "单品券"
+    },
+    {
+      "Key": "Discount Coupon Type",
+      "Value": "Voucher"
+    },
+    {
+      "Key": "Consumption Threshold",
+      "Value": "105 元"
+    },
+    {
+      "Key": "Discount Price",
+      "Value": "5 元"
+    },
+    {
+      "Key": "Stacking Checked",
+      "Value": "false"
+    }
+  ],
+  "LiveRoomNormalActivityStackingProduct": [
+    {
+      "Key": "Active Status",
+      "Value": "Examination passed"
+    },
+    {
+      "Key": "Belong to Campaign",
+      "Value": "暑期嘉年华"
+    },
+    {
+      "Key": "Coupon Description",
+      "Value": "[AutoScript]自动化创建活动"
+    },
+    {
+      "Key": "Max Distribution",
+      "Value": "10000"
+    },
+    {
+      "Key": "Max Num by Users",
+      "Value": "10"
+    },
+    {
+      "Key": "Max Num Issued Per Day",
+      "Value": "1000"
+    },
+    {
+      "Key": "Belonging Channel",
+      "Value": "B2C"
+    },
+    {
+      "Key": "Test Batch Logo",
+      "Value": "正式批次"
+    },
+    {
+      "Key": "Distribute Channel",
+      "Value": "直播间"
+    },
+    {
+      "Key": "Effective Channel",
+      "Value": "DTC - MPMSTORE"
+    },
+    {
+      "Key": "H5",
+      "Value": "-"
+    },
+    {
+      "Key": "Participating Users",
+      "Value": "All users"
+    },
+    {
+      "Key": "Applicable Goods Type",
+      "Value": "全场券"
+    },
+    {
+      "Key": "Discount Coupon Type",
+      "Value": "Voucher"
+    },
+    {
+      "Key": "Consumption Threshold",
+      "Value": "105 元"
+    },
+    {
+      "Key": "Discount Price",
+      "Value": "5 元"
+    },
+    {
+      "Key": "Stacking Checked",
+      "Value": "true"
+    },
+    {
+      "Key": "Product Checked",
+      "Value": "true"
+    }
+  ],
+  "H5NormalActivity": [
+    {
+      "Key": "Active Status",
+      "Value": "Examination passed"
+    },
+    {
+      "Key": "Belong to Campaign",
+      "Value": "暑期嘉年华"
+    },
+    {
+      "Key": "Coupon Description",
+      "Value": "[AutoScript]自动化创建活动"
+    },
+    {
+      "Key": "Max Distribution",
+      "Value": "10000"
+    },
+    {
+      "Key": "Max Num by Users",
+      "Value": "10"
+    },
+    {
+      "Key": "Max Num Issued Per Day",
+      "Value": "1000"
+    },
+    {
+      "Key": "Belonging Channel",
+      "Value": "B2C"
+    },
+    {
+      "Key": "Test Batch Logo",
+      "Value": "正式批次"
+    },
+    {
+      "Key": "Distribute Channel",
+      "Value": "活动页"
+    },
+    {
+      "Key": "url",
+      "Value": "https://H5.com"
+    },
+    {
+      "Key": "Effective Channel",
+      "Value": "DTC - MPMSTORE"
+    },
+    {
+      "Key": "H5",
+      "Value": "-"
+    },
+    {
+      "Key": "Participating Users",
+      "Value": "All users"
+    },
+    {
+      "Key": "Applicable Goods Type",
+      "Value": "全场券"
+    },
+    {
+      "Key": "Discount Coupon Type",
+      "Value": "Voucher"
+    },
+    {
+      "Key": "Consumption Threshold",
+      "Value": "105 元"
+    },
+    {
+      "Key": "Discount Price",
+      "Value": "5 元"
+    },
+    {
+      "Key": "Stacking Checked",
+      "Value": "false"
+    }
+  ],
+  "H5ProductActivity": [
+    {
+      "Key": "Active Status",
+      "Value": "Examination passed"
+    },
+    {
+      "Key": "Belong to Campaign",
+      "Value": "暑期嘉年华"
+    },
+    {
+      "Key": "Coupon Description",
+      "Value": "[AutoScript]自动化创建活动"
+    },
+    {
+      "Key": "Max Distribution",
+      "Value": "10000"
+    },
+    {
+      "Key": "Max Num by Users",
+      "Value": "10"
+    },
+    {
+      "Key": "Max Num Issued Per Day",
+      "Value": "1000"
+    },
+    {
+      "Key": "Belonging Channel",
+      "Value": "B2C"
+    },
+    {
+      "Key": "Test Batch Logo",
+      "Value": "正式批次"
+    },
+    {
+      "Key": "Distribute Channel",
+      "Value": "活动页"
+    },
+    {
+      "Key": "url",
+      "Value": "https://H5.com"
+    },
+    {
+      "Key": "Effective Channel",
+      "Value": "DTC - MPMSTORE"
+    },
+    {
+      "Key": "H5",
+      "Value": "-"
+    },
+    {
+      "Key": "Participating Users",
+      "Value": "All users"
+    },
+    {
+      "Key": "Applicable Goods Type",
+      "Value": "单品券"
+    },
+    {
+      "Key": "Discount Coupon Type",
+      "Value": "Voucher"
+    },
+    {
+      "Key": "Consumption Threshold",
+      "Value": "105 元"
+    },
+    {
+      "Key": "Discount Price",
+      "Value": "5 元"
+    },
+    {
+      "Key": "Stacking Checked",
+      "Value": "false"
+    }
+  ],
+  "OMNISTORENormalActivity": [
+    {
+      "Key": "Active Status",
+      "Value": "Examination passed"
+    },
+    {
+      "Key": "Belong to Campaign",
+      "Value": "暑期嘉年华"
+    },
+    {
+      "Key": "Coupon Description",
+      "Value": "[AutoScript]自动化创建活动"
+    },
+    {
+      "Key": "Max Distribution",
+      "Value": "10000"
+    },
+    {
+      "Key": "Max Num by Users",
+      "Value": "10"
+    },
+    {
+      "Key": "Max Num Issued Per Day",
+      "Value": "1000"
+    },
+    {
+      "Key": "Belonging Channel",
+      "Value": "B2C"
+    },
+    {
+      "Key": "Test Batch Logo",
+      "Value": "正式批次"
+    },
+    {
+      "Key": "Distribute Channel",
+      "Value": "DTC - MPMSTORE"
+    },
+    {
+      "Key": "Effective Channel",
+      "Value": "DTC - OMNISTORE"
+    },
+    {
+      "Key": "H5",
+      "Value": "-"
+    },
+    {
+      "Key": "Participating Users",
+      "Value": "All users"
+    },
+    {
+      "Key": "Applicable Goods Type",
+      "Value": "全场券"
+    },
+    {
+      "Key": "Discount Coupon Type",
+      "Value": "Voucher"
+    },
+    {
+      "Key": "Consumption Threshold",
+      "Value": "105 元"
+    },
+    {
+      "Key": "Discount Price",
+      "Value": "5 元"
+    },
+    {
+      "Key": "Stacking Checked",
+      "Value": "false"
+    }
+  ]
+}

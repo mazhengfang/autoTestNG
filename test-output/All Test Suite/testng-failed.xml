@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <parameter name="ENV" value="PP"/>
+  <parameter name="person-phone" value="13916485978"/>
+  <test thread-count="5" name="Facade Promotion(failed)">
+    <classes>
+      <class name="FacadePromo.receiveCoupon">
+        <methods>
+          <include name="receiveCoupon_Test"/>
+        </methods>
+      </class> <!-- FacadePromo.receiveCoupon -->
+    </classes>
+  </test> <!-- Facade Promotion(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

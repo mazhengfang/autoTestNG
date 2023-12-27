@@ -1,0 +1,44 @@
+{
+  "LoggedUserReceiveCoupon_PositiveFunction": [
+    {
+      "caseName": "TC_LoggedUserReceiveCoupon_PositiveFunction_001",
+      "caseDesc": "单品券领券",
+      "requestHeader": "",
+      "requestPath": "",
+      "requestBody": "",
+      "requestParam": "2307190021100002",
+      "expectedData":
+      {
+        "code": "I08-0002",
+        "title": "api call success with 201",
+        "detail": "Coupon Receive Succeed",
+        "data": [
+          {
+            "coupon_code": "230411005643000002d8",
+            "stock_id": 2304110051100002
+          }
+        ]
+      }
+    },
+    {
+      "caseName": "TC_LoggedUserReceiveCoupon_PositiveFunction_002",
+      "caseDesc": "单品券领券_2",
+      "requestHeader": "",
+      "requestPath": "",
+      "requestBody": "",
+      "requestParam": "2307040023100002",
+      "expectedData":
+      {
+        "code": "I08-0003",
+        "title": "api call success with 201",
+        "detail": "Coupon Receive Succeed",
+        "data": [
+          {
+            "coupon_code": "230411005643000002d8",
+            "stock_id": 2304110051100002
+          }
+        ]
+      }
+    }
+  ]
+}

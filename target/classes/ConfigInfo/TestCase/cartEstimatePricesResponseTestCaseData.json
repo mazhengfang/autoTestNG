@@ -1,0 +1,30 @@
+{
+  "cartEstimatePrices_ResponseData_BasicInfo_1": [
+    {
+      "Key": "subtotal_amount"
+    },
+    {
+      "Key": "product_discount_amount"
+    },
+    {
+      "Key": "coupon_discount_amount"
+    },
+    {
+      "Key": "actual_amount"
+    }
+  ],
+  "cartEstimatePrices_ResponseData_CouponPlans_1": [
+    {
+      "Key": "stock_name"
+    },
+    {
+      "Key": "stock_id"
+    },
+    {
+      "Key": "scope"
+    },
+    {
+      "Key": "coupon_type"
+    }
+  ]
+}

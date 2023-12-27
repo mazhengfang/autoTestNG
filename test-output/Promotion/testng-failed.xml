@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Promotion]">
+  <parameter name="ENV" value="PP"/>
+  <parameter name="person-phone" value="13916485978"/>
+  <test thread-count="5" name="E2E(failed)">
+    <classes>
+      <class name="E2E.TestSet_H5_MPMSTORE_009_HeiMingDan">
+        <methods>
+          <include name="test013_创建活动页面"/>
+          <include name="test001_启动后台"/>
+          <include name="test015_活动页黑名单全场券页面获取"/>
+          <include name="test023_userAvailableCoupon"/>
+          <include name="init"/>
+          <include name="test012_cartEstimatePrices"/>
+          <include name="test016_loggedUserReceiveCoupon"/>
+          <include name="test019_cartEstimatePrices"/>
+          <include name="test004_活动页黑名单全场券页面获取"/>
+          <include name="test014_创建活动页黑名单全场券"/>
+          <include name="test017_cartEstimatePrices"/>
+          <include name="test003_创建活动页黑名单全场券"/>
+          <include name="test025_活动页全场券页面获取"/>
+          <include name="test021_loggedUserReceiveCoupon"/>
+          <include name="test006_cartEstimatePrices"/>
+          <include name="test018_cartEstimatePrices"/>
+          <include name="test002_创建活动页面"/>
+          <include name="test011_cartEstimatePrices"/>
+          <include name="test009_loggedUserReceiveCoupon"/>
+          <include name="test005_活动页黑名单页面获取"/>
+          <include name="test010_cartEstimatePrices"/>
+        </methods>
+      </class> <!-- E2E.TestSet_H5_MPMSTORE_009_HeiMingDan -->
+    </classes>
+  </test> <!-- E2E(failed) -->
+</suite> <!-- Failed suite [Promotion] -->

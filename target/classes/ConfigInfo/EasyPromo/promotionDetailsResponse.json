@@ -1,0 +1,237 @@
+{
+  "promotionDetails_ResponseData_1":
+  {
+    "order_promo": {
+      "id": 5076,
+      "order_source": "FACADE",
+      "order_id": "test20230816005q1",
+      "person_id": "15005083203",
+      "total_price": 519.70,
+      "coupon_discount_amount": 5.00,
+      "product_discount_amount": 100.00,
+      "shipping_fee": null,
+      "actual_amount": 414.70
+    },
+    "order_item_promos": [
+      {
+        "id": 9146,
+        "item_type": "ITEM",
+        "item_id": "4272581",
+        "model_code": "8641950",
+        "dsm_code": "308291",
+        "skuId": "4272581",
+        "quantity": 1,
+        "unit_price": 399.90,
+        "coupon_discount_amount": 3.58,
+        "product_discount_amount": 100.00,
+        "actual_amount": 296.32
+      },
+      {
+        "id": 9147,
+        "item_type": "ITEM",
+        "item_id": "616098",
+        "model_code": "1163704",
+        "dsm_code": "3744",
+        "skuId": "616098",
+        "quantity": 2,
+        "unit_price": 59.90,
+        "coupon_discount_amount": 1.42,
+        "product_discount_amount": 0.00,
+        "actual_amount": 118.38
+      }
+    ],
+    "order_item_promo_details": [
+      {
+        "id": 10057,
+        "order_item_promo_id": 9146,
+        "sequence_id": 0,
+        "activity_id": 0,
+        "activity_type": 0,
+        "res_instance_id": null,
+        "origin_amount": 399.90,
+        "deduction_amount": 100.00
+      },
+      {
+        "id": 10058,
+        "order_item_promo_id": 9146,
+        "sequence_id": 1,
+        "activity_id": 13742,
+        "activity_type": 1,
+        "res_instance_id": "2309110106430000300b",
+        "origin_amount": 299.90,
+        "deduction_amount": 3.58
+      },
+      {
+        "id": 10059,
+        "order_item_promo_id": 9147,
+        "sequence_id": 0,
+        "activity_id": 13742,
+        "activity_type": 1,
+        "res_instance_id": "2309110106430000300b",
+        "origin_amount": 119.80,
+        "deduction_amount": 1.42
+      }
+    ],
+    "coupon_use_details": [
+      {
+        "code": "2309110106430000300b",
+        "name": "[Auto]全场券202309111045",
+        "type": "MERCHANT",
+        "stock_id": 2309110101100002,
+        "scope": "ALL",
+        "to_type": 2,
+        "discount_amount": 5.00
+      }
+    ]
+  },
+  "promotionDetails_ResponseData_2":
+  {
+    "order_promo": {
+      "id": 5323,
+      "order_source": "FACADE",
+      "order_id": "cn1698734095",
+      "person_id": "15005083203",
+      "total_price": 519.70,
+      "coupon_discount_amount": 5.00,
+      "product_discount_amount": 100.00,
+      "shipping_fee": null,
+      "actual_amount": 414.70
+    },
+    "order_item_promos": [
+      {
+        "id": 9505,
+        "item_type": "ITEM",
+        "item_id": "4272581",
+        "model_code": "8641950",
+        "dsm_code": "308291",
+        "skuId": "4272581",
+        "quantity": 1,
+        "unit_price": 399.90,
+        "coupon_discount_amount": 0.00,
+        "product_discount_amount": 100.00,
+        "actual_amount": 299.90
+      },
+      {
+        "id": 9506,
+        "item_type": "ITEM",
+        "item_id": "520667",
+        "model_code": "8324625",
+        "dsm_code": "15053",
+        "skuId": "520667",
+        "quantity": 2,
+        "unit_price": 59.90,
+        "coupon_discount_amount": 5.00,
+        "product_discount_amount": 0.00,
+        "actual_amount": 114.80
+      }
+    ],
+    "order_item_promo_details": [
+      {
+        "id": 10522,
+        "order_item_promo_id": 9505,
+        "sequence_id": 0,
+        "activity_id": 0,
+        "activity_type": 0,
+        "res_instance_id": null,
+        "origin_amount": 399.90,
+        "deduction_amount": 100.00
+      },
+      {
+        "id": 10523,
+        "order_item_promo_id": 9506,
+        "sequence_id": 0,
+        "activity_id": 14042,
+        "activity_type": 1,
+        "res_instance_id": "23103100264300000308",
+        "origin_amount": 119.80,
+        "deduction_amount": 5.00
+      }
+    ],
+    "coupon_use_details": [
+      {
+        "code": "23103100264300000308",
+        "name": "[Auto]单品券202310311432",
+        "type": "MERCHANT",
+        "stock_id": 2310310023100002,
+        "scope": "PRODUCT",
+        "to_type": 2,
+        "discount_amount": 5.00
+      }
+    ]
+  },
+  "promotionDetails_ResponseData_3":
+  {
+    "order_promo": {
+      "id": 5423,
+      "order_source": "FACADE",
+      "order_id": "cn1699413943",
+      "person_id": "15005083203",
+      "total_price": 519.70,
+      "coupon_discount_amount": 5.00,
+      "product_discount_amount": 100.00,
+      "shipping_fee": null,
+      "actual_amount": 414.70
+    },
+    "order_item_promos": [
+      {
+        "id": 9712,
+        "item_type": "ITEM",
+        "item_id": "4272581",
+        "model_code": "8641950",
+        "dsm_code": "308291",
+        "skuId": "4272581",
+        "quantity": 1,
+        "unit_price": 399.90,
+        "coupon_discount_amount": 5.00,
+        "product_discount_amount": 100.00,
+        "actual_amount": 294.90
+      },
+      {
+        "id": 9713,
+        "item_type": "ITEM",
+        "item_id": "520667",
+        "model_code": "8324625",
+        "dsm_code": "15053",
+        "skuId": "520667",
+        "quantity": 2,
+        "unit_price": 59.90,
+        "coupon_discount_amount": 0.00,
+        "product_discount_amount": 0.00,
+        "actual_amount": 119.80
+      }
+    ],
+    "order_item_promo_details": [
+      {
+        "id": 10769,
+        "order_item_promo_id": 9712,
+        "sequence_id": 0,
+        "activity_id": 0,
+        "activity_type": 0,
+        "res_instance_id": null,
+        "origin_amount": 399.90,
+        "deduction_amount": 100.00
+      },
+      {
+        "id": 10770,
+        "order_item_promo_id": 9712,
+        "sequence_id": 1,
+        "activity_id": 14102,
+        "activity_type": 1,
+        "res_instance_id": "231108008643000003ca",
+        "origin_amount": 299.90,
+        "deduction_amount": 5.00
+      }
+    ],
+    "coupon_use_details": [
+      {
+        "code": "231108008643000003ca",
+        "name": "[Auto]黑名单202311081123",
+        "type": "MERCHANT",
+        "stock_id": 2311080081100002,
+        "scope": "ALL",
+        "to_type": 2,
+        "discount_amount": 5.00
+      }
+    ]
+  }
+  }

@@ -1,0 +1,113 @@
+{
+  "repricing_ResponseData_PromotionDetail_1":  {
+    "subtotal_amount": 519.7,
+    "total_discount_amount": 105.00,
+    "coupon_discount_amount": 5.00,
+    "product_discount_amount": 100.0,
+    "shipping_fee": null,
+    "actual_amount": 414.70,
+    "items": [
+      {
+        "id": "4272581",
+        "subtotal_amount": 399.9,
+        "total_discount_amount": 103.58,
+        "coupon_discount_amount": 3.58,
+        "product_discount_amount": 100.0,
+        "actual_amount": 296.32
+      },
+      {
+        "id": "616098",
+        "subtotal_amount": 119.8,
+        "total_discount_amount": 1.42,
+        "coupon_discount_amount": 1.42,
+        "product_discount_amount": 0.0,
+        "actual_amount": 118.38
+      }
+    ],
+    "coupons": [
+      {
+        "code": "230911010643000006d9",
+        "name": "[Auto]全场券202309111045",
+        "type": "MERCHANT",
+        "stock_id": 2309110101100002,
+        "scope": null,
+        "to_type": null,
+        "discount_amount": 5.00
+      }
+    ]
+  },
+  "repricing_ResponseData_PromotionDetail_2":  {
+    "subtotal_amount": 519.7,
+    "total_discount_amount": 105.00,
+    "coupon_discount_amount": 5.00,
+    "product_discount_amount": 100.0,
+    "shipping_fee": null,
+    "actual_amount": 414.70,
+    "items": [
+      {
+        "id": "4272581",
+        "subtotal_amount": 399.9,
+        "total_discount_amount": 100.0,
+        "coupon_discount_amount": 0,
+        "product_discount_amount": 100.0,
+        "actual_amount": 299.9
+      },
+      {
+        "id": "520667",
+        "subtotal_amount": 119.8,
+        "total_discount_amount": 5.00,
+        "coupon_discount_amount": 5.00,
+        "product_discount_amount": 0.0,
+        "actual_amount": 114.80
+      }
+    ],
+    "coupons": [
+      {
+        "code": "23103000264300000341",
+        "name": "[Auto]单品券202310301023",
+        "type": "MERCHANT",
+        "stock_id": 2310300023100002,
+        "scope": null,
+        "to_type": null,
+        "discount_amount": 5.00
+      }
+    ]
+  },
+  "repricing_ResponseData_PromotionDetail_3":  {
+    "subtotal_amount": 519.7,
+    "total_discount_amount": 105.00,
+    "coupon_discount_amount": 5.00,
+    "product_discount_amount": 100.0,
+    "shipping_fee": null,
+    "actual_amount": 414.70,
+    "items": [
+      {
+        "id": "4272581",
+        "subtotal_amount": 399.9,
+        "total_discount_amount": 105.00,
+        "coupon_discount_amount": 5.00,
+        "product_discount_amount": 100.0,
+        "actual_amount": 294.90
+      },
+      {
+        "id": "520667",
+        "subtotal_amount": 119.8,
+        "total_discount_amount": 0.0,
+        "coupon_discount_amount": 0,
+        "product_discount_amount": 0.0,
+        "actual_amount": 119.8
+      }
+    ],
+    "coupons": [
+      {
+        "code": "23110601064300000203",
+        "name": "[Auto]黑名单202311061609",
+        "type": "MERCHANT",
+        "stock_id": 2311060101100002,
+        "scope": null,
+        "to_type": null,
+        "discount_amount": 5.00
+      }
+    ]
+  }
+}

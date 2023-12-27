@@ -1,0 +1,82 @@
+{
+  "UserAvailableCoupon_TestBody_1": {
+    "user": {
+      "person_id": "15005083203",
+      "external_user_info": {
+        "identity_type": 2,
+        "identity_code": "oOwvn5UJDMCc2CvJUJyp9v0mGGH4"
+      }
+    },
+    "client_name": "MPMSTORE",
+    "products": [
+      {
+        "dsm_code": "308291",
+        "model_code": "8641950",
+        "sku_id": "4272581"
+      }
+    ],
+    "redirect_pdp_map": {
+      "liveBroadcastRoom": "room01"
+    }
+  },
+  "UserAvailableCoupon_TestBody_2": {
+    "user": {
+      "person_id": "15005083203",
+      "external_user_info": {
+        "identity_type": 2,
+        "identity_code": "oOwvn5UJDMCc2CvJUJyp9v0mGGH4"
+      }
+    },
+    "client_name": "MPMSTORE",
+    "products": [
+      {
+        "dsm_code": "154253",
+        "model_code": "8363990",
+        "sku_id": "2074681"
+      }
+    ],
+    "redirect_pdp_map": {
+      "liveBroadcastRoom": "room01"
+    }
+  },
+  "UserAvailableCoupon_TestBody_3": {
+    "user":{
+      "person_id":"15005073365",
+      "external_user_info":{
+        "identity_type":2,
+        "identity_code":"oOwvn5dz_Iw2Llb8U_EwrOwpZEII"
+      }
+    },
+    "client_name": "MPMSTORE",
+    "products": [
+      {
+        "dsm_code": "154253",
+        "model_code": "8363990",
+        "sku_id": "2074681"
+      }
+    ],
+    "redirect_pdp_map": {
+      "liveBroadcastRoom": "room01"
+    }
+  },
+  "UserAvailableCoupon_TestBody_4": {
+    "user": {
+      "person_id": "15005083203",
+      "external_user_info": {
+        "identity_type": 2,
+        "identity_code": "oOwvn5UJDMCc2CvJUJyp9v0mGGH4"
+      }
+    },
+    "client_name": "MPMSTORE",
+    "products": [
+      {
+        "dsm_code":"15053",
+        "model_code":"8324625",
+        "sku_id":"520667"
+      }
+    ],
+    "redirect_pdp_map": {
+      "liveBroadcastRoom": "room01"
+    }
+  }
+}

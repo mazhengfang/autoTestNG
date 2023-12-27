@@ -1,0 +1,10 @@
+{
+  "RedeemCoupon_TestBody_1":
+  {
+    "user":{
+      "person_id":"15005083203"
+    },
+    "client_name":"MPMSTORE",
+    "order_source":"FACADE"
+  }
+}

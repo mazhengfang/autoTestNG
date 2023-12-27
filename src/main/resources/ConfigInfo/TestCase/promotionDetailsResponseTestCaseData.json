@@ -1,0 +1,70 @@
+{
+  "orderPromo_ResponseData_1": [
+    {
+      "Key": "order_source"
+    },
+    {
+      "Key": "person_id"
+    },
+    {
+      "Key": "total_price"
+    },
+    {
+      "Key": "coupon_discount_amount"
+    },
+    {
+      "Key": "product_discount_amount"
+    },
+    {
+      "Key": "shipping_fee"
+    },
+    {
+      "Key": "actual_amount"
+    }
+  ],
+  "orderItemPromos_ResponseData_1": [
+    {
+      "Key": "item_type"
+    },
+    {
+      "Key": "item_id"
+    },
+    {
+      "Key": "model_code"
+    },
+    {
+      "Key": "dsm_code"
+    },
+    {
+      "Key": "skuId"
+    },
+    {
+      "Key": "quantity"
+    },
+    {
+      "Key": "unit_price"
+    },
+    {
+      "Key": "coupon_discount_amount"
+    },
+    {
+      "Key": "product_discount_amount"
+    },
+    {
+      "Key": "actual_amount"
+    }
+  ],
+  "couponUseDetails_ResponseData_1": [
+
+    {
+      "Key": "type"
+    },
+    {
+      "Key": "scope"
+    },{
+      "Key": "to_type"
+    },
+    {
+      "Key": "discount_amount"
+    }]
+}
