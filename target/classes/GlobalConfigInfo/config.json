@@ -1,0 +1,11 @@
+{
+  "PP": {
+    "EPInternalURL": "https://easypromo.pp.dktapp.cloud",
+    "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MTY4NzIxOTMsImV4cCI6MTcxNjg3OTM5MywicHJvZmlsZV9pZCI6IlpNQTIzIiwibmFtZSI6IiJ9.gmv2C4z4b40PSHkzdfRVmJtWMFOwnozZ7VZabPCjpII",
+    "DB_UserName":"ebb02e90-f013-4e30-ac7a-c9c58f3af68e" ,
+    "DB_Password": "4C50ABT1Am8RxT11",
+    "FacadeHost": "https://facade-api.pp.dktapp.cloud",
+    "personNumber": "13916485978"
+  },
+  "reportFilePath": "C:\\autoTestNG\\src\\main\\resources\\GlobalConfigInfo\\SummaryReport.xls"
+}
