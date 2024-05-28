@@ -1,0 +1,17 @@
+{
+  "PromotionPage_Create_TestBody_1": {
+    "name": "营销页autoScript",
+    "title": "营销页autoScript",
+    "description": "营销页autoScript",
+    "redirect_url": "营销页autoScript",
+    "button_name": "营销页autoScript",
+    "banner_urls": [],
+    "sharable": false
+  },
+  "PromotionPage_Info_TestBody_1":{
+    "user": {
+      "person_id": "15005083203"
+    },
+    "client_name": "MPMSTORE"
+  }
+}

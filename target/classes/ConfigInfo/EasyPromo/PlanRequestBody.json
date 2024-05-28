@@ -1,111 +1,206 @@
-{"Plans_TestBody_1":{
-  "user": {
-    "phone": null,
-    "person_id": "15005083203",
-    "external_user_info": {"identity_type":2,"identity_code":"oOwvn5UJDMCc2CvJUJyp9v0mGGH4"}
-  },
-  "client_name": "MPMSTORE",
-  "products":[
-    {
-      "dsm_code":"308291",
-      "model_code":"8641950",
-      "sku_id":"4272581",
-      "unit_price":399.9,
-      "discount_amount":100.0,
-      "sale_price":299.9,
-      "quantity":1
-    },
-    {
-      "dsm_code":"3744",
-      "model_code":"1163704",
-      "sku_id":"616098",
-      "unit_price":59.9,
-      "discount_amount":0.0,
-      "sale_price":59.9,
-      "quantity":2
-    }
-  ],
-  "shipping_info": null,
-  "occurs_time": 1673952978575
-},
-  "Plans_TestBody_2":{
+{
+  "Plans_TestBody_1": {
     "user": {
       "phone": null,
       "person_id": "15005083203",
-      "external_user_info": {"identity_type":2,"identity_code":"oOwvn5UJDMCc2CvJUJyp9v0mGGH4"}
+      "external_user_info": {
+        "identity_type": 2,
+        "identity_code": "oOwvn5UJDMCc2CvJUJyp9v0mGGH4"
+      }
     },
     "client_name": "MPMSTORE",
-    "products":[
+    "products": [
       {
-        "dsm_code":"308291",
-        "model_code":"8641950",
-        "sku_id":"4272581",
-        "unit_price":399.9,
-        "discount_amount":100.0,
-        "sale_price":299.9,
-        "quantity":1
+        "dsm_code": "308291",
+        "model_code": "8641950",
+        "sku_id": "4272581",
+        "family_id": "345",
+        "unit_price": 399.9,
+        "discount_amount": 100.0,
+        "sale_price": 299.9,
+        "quantity": 1
       },
       {
-        "dsm_code":"15053",
-        "model_code":"8324625",
-        "sku_id":"520667",
-        "unit_price":59.9,
-        "discount_amount":0.0,
-        "sale_price":59.9,
-        "quantity":2
+        "dsm_code": "3744",
+        "model_code": "1163704",
+        "sku_id": "616098",
+        "family_id": "346",
+        "unit_price": 59.9,
+        "discount_amount": 0.0,
+        "sale_price": 59.9,
+        "quantity": 2
       }
     ],
     "shipping_info": null,
     "occurs_time": 1673952978575
   },
-  "Plans_TestBody_3":{
+  "Plans_TestBody_2": {
     "user": {
       "phone": null,
       "person_id": "15005083203",
-      "external_user_info": {"identity_type":2,"identity_code":"oOwvn5UJDMCc2CvJUJyp9v0mGGH4"}
+      "external_user_info": {
+        "identity_type": 2,
+        "identity_code": "oOwvn5UJDMCc2CvJUJyp9v0mGGH4"
+      }
     },
     "client_name": "MPMSTORE",
-    "products":[
+    "products": [
       {
-        "dsm_code":"308291",
-        "model_code":"8641950",
-        "sku_id":"4272581",
-        "unit_price":399.9,
-        "discount_amount":300.0,
-        "sale_price":99.9,
-        "quantity":1
+        "dsm_code": "308291",
+        "model_code": "8641950",
+        "sku_id": "4272581",
+        "family_id": "345",
+        "unit_price": 399.9,
+        "discount_amount": 100.0,
+        "sale_price": 299.9,
+        "quantity": 1
       },
       {
-        "dsm_code":"15053",
-        "model_code":"8324625",
-        "sku_id":"520667",
-        "unit_price":59.9,
-        "discount_amount":0.0,
-        "sale_price":59.9,
-        "quantity":2
+        "dsm_code": "15053",
+        "model_code": "8324625",
+        "sku_id": "520667",
+        "family_id": "346",
+        "unit_price": 59.9,
+        "discount_amount": 0.0,
+        "sale_price": 59.9,
+        "quantity": 2
       }
     ],
     "shipping_info": null,
     "occurs_time": 1673952978575
   },
-  "Plans_TestBody_4":{
+  "Plans_TestBody_3": {
     "user": {
       "phone": null,
       "person_id": "15005083203",
-      "external_user_info": {"identity_type":2,"identity_code":"oOwvn5UJDMCc2CvJUJyp9v0mGGH4"}
+      "external_user_info": {
+        "identity_type": 2,
+        "identity_code": "oOwvn5UJDMCc2CvJUJyp9v0mGGH4"
+      }
     },
     "client_name": "MPMSTORE",
-    "products":[
-          {
-            "dsm_code":"15053",
-            "model_code":"8324625",
-            "sku_id":"520667",
-        "unit_price":59.9,
-        "discount_amount":0.0,
-        "sale_price":59.9,
-        "quantity":2
+    "products": [
+      {
+        "dsm_code": "308291",
+        "model_code": "8641950",
+        "sku_id": "4272581",
+        "family_id": "345",
+        "unit_price": 399.9,
+        "discount_amount": 300.0,
+        "sale_price": 99.9,
+        "quantity": 1
+      },
+      {
+        "dsm_code": "15053",
+        "model_code": "8324625",
+        "sku_id": "520667",
+        "family_id": "346",
+        "unit_price": 59.9,
+        "discount_amount": 0.0,
+        "sale_price": 59.9,
+        "quantity": 2
       }
     ],
+    "shipping_info": null,
+    "occurs_time": 1673952978575
+  },
+  "Plans_TestBody_4": {
+    "user": {
+      "phone": null,
+      "person_id": "15005083203",
+      "external_user_info": {
+        "identity_type": 2,
+        "identity_code": "oOwvn5UJDMCc2CvJUJyp9v0mGGH4"
+      }
+    },
+    "client_name": "MPMSTORE",
+    "products": [
+      {
+        "dsm_code": "15053",
+        "model_code": "8324625",
+        "sku_id": "520667",
+        "family_id": "345",
+        "unit_price": 59.9,
+        "discount_amount": 0.0,
+        "sale_price": 59.9,
+        "quantity": 2
+      }
+    ],
+    "shipping_info": null,
+    "occurs_time": 1673952978575
+  },
+  "Plans_TestBody_5": {
+    "user": {
+      "phone": null,
+      "person_id": "15005083203",
+      "external_user_info": {
+        "identity_type": 2,
+        "identity_code": "oOwvn5UJDMCc2CvJUJyp9v0mGGH4"
+      }
+    },
+    "client_name": "DCN",
+    "products": [
+      {
+        "dsm_code": "308291",
+        "model_code": "8641950",
+        "sku_id": "4272581",
+        "family_id": "345",
+        "unit_price": 399.9,
+        "discount_amount": 100.0,
+        "sale_price": 299.9,
+        "quantity": 1
+      },
+      {
+        "dsm_code": "3744",
+        "model_code": "1163704",
+        "sku_id": "616098",
+        "family_id": "346",
+        "unit_price": 59.9,
+        "discount_amount": 0.0,
+        "sale_price": 59.9,
+        "quantity": 2
+      }
+    ],
+    "shipping_info": null,
+    "occurs_time": 1673952978575
+  },
+  "Plans_TestBody_6": {
+    "user": {
+      "phone": null,
+      "person_id": "15005083203",
+      "external_user_info": {
+        "identity_type": 2,
+        "identity_code": "oOwvn5UJDMCc2CvJUJyp9v0mGGH4"
+      }
+    },
+    "client_name": "WEBPOS",
+    "products": [
+      {
+        "dsm_code": "308291",
+        "model_code": "8641950",
+        "sku_id": "4272581",
+        "family_id": "345",
+        "unit_price": 399.9,
+        "discount_amount": 100.0,
+        "sale_price": 299.9,
+        "quantity": 1
+      },
+      {
+        "dsm_code": "3744",
+        "model_code": "1163704",
+        "sku_id": "616098",
+        "family_id": "346",
+        "unit_price": 59.9,
+        "discount_amount": 0.0,
+        "sale_price": 59.9,
+        "quantity": 2
+      }
+    ],
+    "store": {
+      "store_code": "1277",
+      "region_code":"SHANGHAI",
+      "cashier_code": "1cax"
+    },
     "shipping_info": null,
     "occurs_time": 1673952978575
   }

@@ -31,13 +31,13 @@ public class userAvailableCoupon {
     private String ReqBodyPath = "src\\main\\resources\\ConfigInfo\\FacadePromo\\userAvailableCouponRequestBody.json";
 
     //request body1 是用来测试全场券的， request body2是用来测试定向券（指定用户） 单品券的
-    public httpResponse userAvailableCoupon(String ENV, String fdBenefitHost,String bodyNumber,String personPhone) {
+    public httpResponse userAvailableCoupon(String ENV, String fdBenefitHost,String clientName, String bodyNumber,String personPhone) {
         authenticationToken authenticationToken = new authenticationToken();
         httpHeaders requestHeader = httpData.prepareHttpsHeader(rhKey, rhConfigPath);
         httpResponse tokenResponse = authenticationToken.getAuthenticationToken(ENV,personPhone);
         String token = tokenResponse.getBody(JSONObject.class).getString("token_type") + tokenResponse.getBody(JSONObject.class).getString("user_token");
         requestHeader.Add("Authorization", token);
-
+        requestHeader.Add("client-name", clientName);
         String URL = fdBenefitHost + sPath ;
 
         JSONObject requestBody = parseObject(commonFunction.readJsonFile(ReqBodyPath)).getJSONObject(userAvailableCouponRequestBodyKey + bodyNumber);

@@ -2,29 +2,40 @@ package com;
 
 
 import com.report.report;
-import com.report.severityType;
+import org.testng.ITestContext;
 import xProject.testResult.Assert;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.ArrayList;
 import java.util.List;
 
-
+@Slf4j
 public class TestListener extends TestListenerAdapter {
     private int m_count = 0;
     private int index = 0;
     report iReport = new report();
+
+
+    @Override
+    public void onStart(ITestContext iTestContext){
+//         super.onStart(iTestContext);
+//         log(String.format("-------------------Test Start-------------------------"));
+        log.info(String.format("-------------------%s Test Start-------------------------",iTestContext.getName()));
+        log("-----pass");
+    }
+
     @Override
     public void onTestStart(ITestResult tr) {
         Assert.flag = true;
         Assert.errors.clear();
+//        super.onTestStart(tr);
+        log.info(String.format("-------------------%s.%s Test Start-------------------------",tr.getName(),tr.getStatus()));
     }
 
     @Override
     public void onTestFailure(ITestResult tr) {
-
-        iReport.testStep("TC", "Eror", tr, severityType.Median, "Pass", "Fail");
         this.handleAssertion(tr);
     }
 
@@ -36,7 +47,6 @@ public class TestListener extends TestListenerAdapter {
     @Override
     public void onTestSuccess(ITestResult tr) {
         this.handleAssertion(tr);
-        iReport.testStep("TC", "Eror", tr, severityType.Median, "Pass", "Fail");
 //        log("Pass");
     }
 

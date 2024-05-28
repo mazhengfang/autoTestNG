@@ -23,7 +23,7 @@ public class loggedUserReceiveCoupon {
      * @param stockID 传参，该数据需要进一步考虑：自动化 还是 手动创建1年数据 ？？？
      * @return 领券返回的数据结果
      */
-    public httpResponse loggedUserReceiveCoupon_StockID(String Env, String fdBenefitHost, String personNumber,String stockID) {
+    public httpResponse loggedUserReceiveCoupon_StockID(String Env, String fdBenefitHost, String clientName,String personNumber,String stockID) {
 
         authenticationToken authenticationToken = new authenticationToken();
         httpHeaders requestHeader = httpData.prepareHttpsHeader(rhKey, rhConfigPath);
@@ -31,7 +31,7 @@ public class loggedUserReceiveCoupon {
         String token = tokenResponse.getBody(JSONObject.class).getString("token_type") + tokenResponse.getBody(JSONObject.class).getString("user_token");
         requestHeader.Add("Authorization", token);
         requestHeader.Add("person-phone", personNumber);
-
+        requestHeader.Add("client-name", clientName);
         String URL = fdBenefitHost + sPath;
         JSONObject requestBody = new JSONObject();
         JSONArray value2 = new JSONArray();

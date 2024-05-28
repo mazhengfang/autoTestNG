@@ -25,5 +25,23 @@
     {
       "name": "Content-Type",
       "value": "application/json"
-    }]
+    }],
+  "activityPageAvailableCoupons": [
+    {
+      "name": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "name": "open-id",
+      "value": "ob0m-4g1FK61aPbt8GFY6m9jB2SA"
+    },
+    {
+      "name": "client-name",
+      "value": "MPMSTORE"
+    },
+    {
+      "name": "app-id",
+      "value": "wxdbc3f1ac061903dd"
+    }
+  ]
 }

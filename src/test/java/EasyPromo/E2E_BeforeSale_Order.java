@@ -129,11 +129,11 @@ public class E2E_BeforeSale_Order {
     public void queryUserCoupon() {
         String expStockID = "2309050031100002";
         JSONArray couponList;
-        httpResponse rs = queryUserCoupon.queryUserCoupon(Env, facadePromoHost, "AVAILABLE", "ALL", 1, 5,personNumber);
+        httpResponse rs = queryUserCoupon.queryUserCoupon(Env, facadePromoHost,"clientName", "AVAILABLE", "ALL", 1, 5,personNumber);
         int rsCode = rs.getCode();
         assertEquals(rsCode, 200, "查询用户领券接口返回报错");
 
-        couponList = queryUserCoupon.couponList(rs, Env, facadePromoHost,personNumber);
+        couponList = queryUserCoupon.couponList(rs, Env, facadePromoHost,"clientName",personNumber,"AVAILABLE");
         boolean couponNotEffective = crossFunctions.couponNotEffective(couponList,expStockID);
         assertEquals(couponNotEffective, true, "未生效活动在查询用户接口展示活动数据，期望结果不展示");
     }
@@ -142,7 +142,7 @@ public class E2E_BeforeSale_Order {
     public void userAvailableCoupon() {
         JSONArray couponList;
         String expStockID = "2309050031100002";
-        httpResponse rs = userAvailableCoupon.userAvailableCoupon(Env, facadePromoHost,bodyNumber,personNumber);
+        httpResponse rs = userAvailableCoupon.userAvailableCoupon(Env, facadePromoHost,"clientName",bodyNumber,personNumber);
         int rsCode = rs.getCode();
         assertEquals(rsCode, 200, "我的优惠券接口返回报错");
 

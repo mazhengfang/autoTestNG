@@ -70,5 +70,41 @@
     "shipping_info": null,
     "occurs_time": 1671775421069,
     "order_source": "FACADE"
+  },
+  "ApplyPromotionPlans_TestBody_5":
+  {
+    "user": {
+      "phone": null,
+      "person_id": "15005083203",
+      "external_user_info": {
+        "identity_type": 2,
+        "identity_code": "oOwvn5UJDMCc2CvJUJyp9v0mGGH4"
+      }
+    },
+
+    "client_name": "DCN",
+    "products": [
+      {
+        "dsm_code": "308291",
+        "model_code": "8641950",
+        "sku_id": "4272581",
+        "unit_price": 399.9,
+        "discount_amount": 100.0,
+        "sale_price": 299.9,
+        "quantity": 1
+      },
+      {
+        "dsm_code": "3744",
+        "model_code": "1163704",
+        "sku_id": "616098",
+        "unit_price": 59.9,
+        "discount_amount": 0.0,
+        "sale_price": 59.9,
+        "quantity": 2
+      }
+    ],
+    "shipping_info": null,
+    "occurs_time": 1671775421069,
+    "order_source": "FACADE"
   }
 }

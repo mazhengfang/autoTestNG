@@ -25,7 +25,9 @@ import static java.lang.System.*;
 import static org.junit.Assert.assertThat;
 
 public class testWeb {
-
+    private String easyPromoHost;
+    private String facadePromoHost;
+    private String Env;
     WebDriver driver;
 
 
@@ -53,7 +55,7 @@ public class testWeb {
         App a = new App();
         a.connect();
         mySQL b = new mySQL();
-        b.dbMySQLConnect();
+//        b.dbMySQLConnect();
 
         // information_schema
 //        List<String> c = b.getDatabase();
@@ -66,35 +68,5 @@ public class testWeb {
             }
 
 
-    void test2() {
-        // Exercise
-        driver.get("https://easypromo-front.pp.dktapp.cloud/login");
-        WebDriverWait wait = new WebDriverWait(driver, 20);
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#app > div > form > button > span")));
-        WebElement logInButton = driver.findElement(By.cssSelector("#app > div > form > button > span"));
-        logInButton.click();
-//        Set<String> allWindowsId = driver.getWindowHandles();
-//        String title = driver.getTitle();
-//        new webDriverWait(driver,5).until(ExpectedCondition.("迪卡侬后台系统"));
-//
-        //x-path: //*[@id="app"]/div/form/button
 
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("head > title")));
-        String title = driver.getTitle();
-        WebElement inputNameElement = driver.findElement(By.cssSelector("#username"));
-        inputNameElement.sendKeys("z21zgu");
-
-        WebElement inputPasswordElement = driver.findElement(By.cssSelector("#password"));
-        inputPasswordElement.sendKeys("$RFVbgt5");
-
-        WebElement signOnButton= driver.findElement(By.cssSelector("#cnxbton"));
-        signOnButton.click();
-
-
-
-
-//      driver.findElement(By.id("search-term")).sendKeys("search demo");
-//        out.println(title);
-//        assertThat(title).contains("Selenium WebDriver");
-    }
 }

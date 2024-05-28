@@ -4,60 +4,49 @@
 <suite name="Promotion">
     <parameter name="ENV" value="PP"/>
     <parameter name="person-phone" value="13916485978"/>
-    <!--    <listeners>-->
-    <!--        <listener class-name="com.example.MyListener" />-->
-    <!--        <listener class-name="com.example.MyMethodInterceptor" />-->
-    <!--    </listeners>-->
-
-    <test verbose="2" preserve-order="true" name="BackOffice">
-        <classes>
-<!--                            <class name= "BackOffice.ProductActivity_TestSet001"/>-->
-<!--                            <class name= "BackOffice.ProductActivityStackingProduct_TestSet001" />-->
-<!--                            <class name= "BackOffice.BlackModelListActivity_TestSet001"/>-->
-            <!--                <class name= "BackOffice.DesignatedUserActivity_Test001"/>-->
-
-            <!--                <class name= "BackOffice.LiveRoomNormalActivity_TestSet001" />-->
-            <!--                <class name= "BackOffice.LiveRoomNormalActivityStackingProduct_TestSet001" />-->
-            <!--                <class name= "BackOffice.LiveRoomProductActivity_TestSet001" />-->
-            <!--                <class name= "BackOffice.LiveRoomProductActivityStackingProduct_TestSet001" />-->
-<!--                            <class name= "BackOffice.NormalActivity_TestSet001" />-->
-<!--                            <class name= "BackOffice.H5NormalActivity_TestSet001" />-->
-        </classes>
-    </test>
-    <test verbose="2" preserve-order="true" name="Facade Promotion">
-        <classes>
-            <!--                            <class name= "FacadePromo.receiveCoupon" />-->
-            <!--                <class name= "APITestCase.FacadePromotionPromotion.getCouponDetail" />-->
-            <!--                <class name= "APITestCase.FacadePromotionPromotion.queryUserCoupon" />-->
-            <!--                <class name= "APITestCase.FacadePromotionPromotion.getStockDetail" />-->
-            <!--                <class name= "APITestCase.FacadePromotionPromotion.userAvailableCoupon" />-->
-
-        </classes>
-    </test>
-    <test verbose="2" preserve-order="true" name="Test">
-        <classes>
-<!--            <class name= "testWeb">-->
+    <parameter name="URL" value="https://easypromo-front-new.pp.dktapp.cloud/"/>
+<!--        <listeners>-->
+<!--            <listener class-name="com.TestListener" />-->
+<!--            <listener class-name="com.example.MyMethodInterceptor" />-->
+<!--        </listeners>-->
+<!--    <test verbose="2" preserve-order="true" name="Debug Test">-->
+<!--        <classes>-->
+<!--            <class name="EasyPromo.OmniCoupon_DistributeChannelOmni_UseChannelWebPos"></class>-->
+<!--            <class name="EasyPromo.OfflineCoupon_DistributeChannelH5_UseChannelWebPos"></class>-->
+<!--            <class name="EasyPromo.OnlineCoupon_DistributeChannelDCN_UseChannelDCN"></class>-->
+<!--            <class name="EasyPromo.OnlineCoupon_DistributeChannelMPM_UseChannelMPM"></class>-->
+<!--            <class name="EasyPromo.OnlineCoupon_DistributeChanneLH5_UseChannelMPM"></class>-->
+<!--            <class name="EasyPromo.OnlineCoupon_DistributeChannelPromotionPage_UseChannelMPM"></class>-->
+<!--            <class name="NewBackOffice.test">-->
+<!--                <parameter name="URL" value="https://easypromo-front-new.p1p.dktapp.cloud/1"/>-->
 <!--                <methods>-->
-<!--                    <include name="test1"></include>-->
-
+<!--                    <include name="queryFlowID"/>-->
 <!--                </methods>-->
-<!--            </class>-->
+<!--            </class> &lt;!&ndash; NewBackOffice.test &ndash;&gt;-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test verbose="2" preserve-order="true" name="BackOffice UI">-->
+<!--        <classes>-->
+
+<!--        </classes>-->
+<!--    </test>-->
+    <test verbose="2" preserve-order="true" name="Easy Promotion Regression">
+        <classes>
+<!--                            <class name= "EasyPromo.OfflineCoupon_DistributeChannelH5_UseChannelWebPos" />-->
+<!--                            <class name= "EasyPromo.OfflineCoupon_DistributeChannelPromotionPage_UseChannelWebPos" />-->
+<!--                            <class name= "EasyPromo.OnlineCoupon_DistributeChannelDCN_UseChannelDCN" />-->
+<!--                            <class name= "EasyPromo.OnlineCoupon_DistributeChanneLH5_UseChannelMPM" />-->
+<!--                            <class name= "EasyPromo.OnlineCoupon_DistributeChannelMPM_UseChannelMPM" />-->
+<!--                            <class name= "EasyPromo.OnlineCoupon_DistributeChannelPromotionPage_UseChannelMPM" />-->
+<!--            <class name= "EasyPromo.OmniCoupon_DistributeChannelOmni_UseChannelWebPos" />-->
+            <class name= "EasyPromo.OmniCoupon_DistributeChannelOmni_UseChannelMPM" />
+
         </classes>
     </test>
+
     <test verbose="2" preserve-order="true" name="E2E">
         <classes>
-            <class name="E2E.TestSet_H5_MPMSTORE_009_HeiMingDan">
-<!--            <class name="NewBackOffice.test">-->
-<!--                <methods>-->
-<!--                    <include name="test010_cartEstimatePrices"></include>-->
-<!--                    <include name="test011_cartEstimatePrices"></include>-->
-<!--                    <include name="test012_cartEstimatePrices"></include>-->
-<!--&lt;!&ndash;                    <include name="test017_promotionDetails_004"></include>&ndash;&gt;-->
-<!--&lt;!&ndash;                    <include name="test026_loggedUserReceiveCoupon"></include>&ndash;&gt;-->
-<!--&lt;!&ndash;                    <include name="test001_启动后台"></include>&ndash;&gt;-->
-<!--&lt;!&ndash;                    <include name="test030_全场券活动关闭"></include>&ndash;&gt;-->
-<!--                </methods>-->
-            </class>
+<!--            <class name="E2E.MPMStore.TestSet_MPMSTORE_MPMSTORE_001_QuanChang">-->
         </classes>
     </test>
 </suite>

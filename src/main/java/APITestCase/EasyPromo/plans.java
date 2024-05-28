@@ -6,6 +6,9 @@ import com.alibaba.fastjson.JSONObject;
 import com.commonFunction;
 import com.http.httpHeaders;
 import com.http.httpResponse;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+import xProject.flowFunction;
 import xProject.httpData;
 
 import java.util.HashMap;
@@ -21,6 +24,7 @@ public class plans {
     private String ReqBodyPath = "src\\main\\resources\\ConfigInfo\\EasyPromo\\PlanRequestBody.json";
     public String planIndex;
 
+
     public httpResponse plans(String ENV, String easyPromoHost, String bodyNumber,String personPhone) {
         authenticationToken authenticationToken = new authenticationToken();
         httpHeaders requestHeader = httpData.prepareHttpsHeader(rhKey, planHeaderConfigPath);
@@ -35,6 +39,7 @@ public class plans {
         httpResponse hs = httpData.transferRequest(URL, requestBody, requestHeader, rType);
         return hs;
     }
+  
 
     public boolean promotionPlansValidation(JSONArray promotionPlansList, String expStockID, JSONObject expPromotionPlans) {
         int cnt = 0;

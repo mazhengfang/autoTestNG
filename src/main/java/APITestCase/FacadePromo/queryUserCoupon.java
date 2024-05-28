@@ -16,12 +16,13 @@ public class queryUserCoupon {
     private String personPhone = "13916485978";
 
 
-    public httpResponse queryUserCoupon(String ENV, String fdBenefitHost, String couponStatus, String couponType, int pageOffset, int pageLimit, String personNumber) {
+    public httpResponse queryUserCoupon(String ENV, String fdBenefitHost,String clientName, String couponStatus, String couponType, int pageOffset, int pageLimit, String personNumber) {
         authenticationToken authenticationToken = new authenticationToken();
         httpHeaders requestHeader = httpData.prepareHttpsHeader(rhKey, rhConfigPath);
         httpResponse tokenResponse = authenticationToken.getAuthenticationToken(ENV,personNumber);
         String token = tokenResponse.getBody(JSONObject.class).getString("token_type") + tokenResponse.getBody(JSONObject.class).getString("user_token");
         requestHeader.Add("Authorization", token);
+        requestHeader.Add("client-name", clientName);
 
         String value1 = personNumber;
         requestHeader.Add("person-phone", value1);
@@ -61,15 +62,15 @@ public class queryUserCoupon {
 //        return hs;
 //    }
 
-    public JSONArray couponList(httpResponse rs, String Env, String facadePromoHost, String personPhone) {
+    public JSONArray couponList(httpResponse rs, String Env, String facadePromoHost,String clientName, String personPhone, String couponStatus) {
         JSONArray couponList;
         JSONObject rsData = rs.getBody(JSONObject.class).getJSONObject("data");
         couponList = rsData.getJSONArray("coupons");
         int totalPage = rsData.getInteger("total_page");
         if (totalPage > 1) {
-            for (int i = 2; i <= totalPage; i++
+            for (int i = 2; i <= totalPage-1; i++
             ) {
-                httpResponse responseResult = queryUserCoupon(Env, facadePromoHost, "AVAILABLE", "ALL", i, 5,personPhone);
+                httpResponse responseResult = queryUserCoupon(Env, facadePromoHost,clientName, couponStatus, "ALL", i, 5,personPhone);
                 JSONObject rsOffsetData = responseResult.getBody(JSONObject.class).getJSONObject("data");
                 JSONArray couponOffsetInfo = rsOffsetData.getJSONArray("coupons");
                 for (Object couponInfo : couponOffsetInfo) {

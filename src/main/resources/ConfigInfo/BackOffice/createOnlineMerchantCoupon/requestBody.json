@@ -1,0 +1,297 @@
+{
+  "createDistChlMPM_PPage-UseMPM": {
+    "activity": {
+      "activity_id": null,
+      "name": "[Auto]全场券<MPM_MPM>",
+      "campaign_id": 86,
+      "campaign_name": "自动化测试专用(勿删改)",
+      "activity_displays": [
+        {
+          "id": 2354,
+          "client_name": "MPMSTORE",
+          "participate_page": "",
+          "description": "自动化测试数据 ",
+          "reminder": "如有任何问题，请进入个人中心后，点击线上咨询或直接拨打4009-109-109联系迪卡侬中国客户关系中心咨询"
+        }
+      ],
+      "distri_tags": [
+      ],
+      "exclusive_info": [
+      ],
+      "test_flag": "",
+      "double_validation": true,
+      "activity_type": "COUPON",
+      "coupon_biz_type": "ONLINE",
+      "contributor": "NOT_TO",
+      "activity_status": null,
+      "scope": "ALL",
+      "publicly_receive": true,
+      "distri_cilents": [
+        "PROMOTIONPAGE",
+        "MPMSTORE"
+      ],
+      "redeem_clients": [
+        "MPMSTORE"
+      ],
+      "restricted_products": [
+      ],
+      "restricted_persons": [
+      ],
+      "restricted_categories": null,
+      "restricted_families": null,
+      "restricted_stores": [
+      ],
+      "excluded_products": [
+      ],
+      "exclusive_type": ""
+    },
+    "standard_stock": {
+      "stacking_limit": 1,
+      "coupon_type": "MERCHANT",
+      "stock_name": "[Auto]全场券<MPM_MPM>",
+      "validity_mode": "IMMEDIATE_EFFECT",
+      "available_day": null,
+      "coupon_values": [
+        {
+          "deduction_way": "REDUCTION",
+          "amount": "5"
+        }
+      ],
+      "coupon_conditions": [
+        {
+          "condition_type": "TRANSACTION_MINIMUM",
+          "amount": 105
+        }
+      ],
+      "stock_inventory": {
+        "max_coupons": 100,
+        "max_coupons_by_day": 100,
+        "max_coupons_per_user": 5
+      }
+    }
+  },
+  "createDistChlH5_PPage-UseMPM": {
+    "activity": {
+      "activity_id": null,
+      "name": "[Auto]全场券<H5_MPM>",
+      "campaign_id": 86,
+      "campaign_name": "自动化测试专用(勿删改)",
+      "activity_displays": [
+        {
+          "id": 2741,
+          "client_name": "MPMSTORE",
+          "participate_page": "",
+          "description": "自动化测试数据 ",
+          "reminder": "如有任何问题，请进入个人中心后，点击线上咨询或直接拨打4009-109-109联系迪卡侬中国客户关系中心咨询"
+        }
+      ],
+      "distri_tags": [
+        "autoTest-H5"
+      ],
+      "exclusive_info": [],
+      "test_flag": "",
+      "double_validation": true,
+      "activity_type": "COUPON",
+      "coupon_biz_type": "ONLINE",
+      "contributor": "NOT_TO",
+      "activity_status": null,
+      "scope": "ALL",
+      "publicly_receive": true,
+      "distri_cilents": [
+        "PROMOTIONPAGE",
+        "ACTIVEPAGE"
+      ],
+      "redeem_clients": [
+        "MPMSTORE"
+      ],
+      "restricted_products": [],
+      "restricted_persons": [],
+      "restricted_categories": null,
+      "restricted_families": [],
+      "restricted_stores": [],
+      "excluded_products": [],
+      "exclusive_type": ""
+    },
+    "standard_stock": {
+      "stacking_limit": 1,
+      "coupon_type": "MERCHANT",
+      "stock_name": "[Auto]全场券<H5_MPM>",
+      "validity_mode": "IMMEDIATE_EFFECT",
+      "available_day": null,
+      "coupon_values": [
+        {
+          "deduction_way": "REDUCTION",
+          "amount": 5
+        }
+      ],
+      "coupon_conditions": [
+        {
+          "condition_type": "TRANSACTION_MINIMUM",
+          "amount": 105
+        }
+      ],
+      "stock_inventory": {
+        "max_coupons": 100,
+        "max_coupons_by_day": 100,
+        "max_coupons_per_user": 5
+      }
+    }
+  },
+  "manager_audit": {
+    "audit_task": [
+      {
+        "user_opinion": {
+          "profile_id": "ZMA23",
+          "instruction": "auto script approve for level 1",
+          "audit_result": "APPROVE"
+        }
+      }
+    ]
+  },
+  "BU_audit": {
+    "audit_task": [
+      {
+        "user_opinion": {
+          "profile_id": "ZMA23",
+          "instruction": "auto script approve for level 2",
+          "audit_result": "APPROVE"
+        }
+      }
+    ]
+  },
+  "CloseActivity": {
+    "status": "CLOSED"
+  },
+  "createDistChlPoPg_PPage-UseMPM": {
+    "activity": {
+      "activity_id": null,
+      "double_validation": false,
+      "activity_status": null,
+      "publicly_receive": true,
+      "coupon_biz_type": null,
+      "test_flag": "",
+      "name": "[Auto]全场券<PoPg_MPM>",
+      "activity_type": "COUPON",
+      "contributor": "TO",
+      "scope": "ALL",
+      "campaign_id": 85,
+      "restricted_stores": [],
+      "restricted_persons": [],
+      "restricted_families": [],
+      "restricted_products": [],
+      "excluded_products": [],
+      "activity_displays": [
+        {
+          "client_name": "MPMSTORE",
+          "reminder": "如有任何问题，请进入个人中心后，点击线上咨询或直接拨打4009-109-109联系迪卡侬中国客户关系中心咨询",
+          "participate_page": "",
+          "description": "[Auto]全场券<PoPg_MPM>"
+        }
+      ],
+      "distri_tags": [],
+      "exclusive_type": "",
+      "exclusive_info": [],
+      "distri_cilents": [
+        "PROMOTIONPAGE"
+      ],
+      "redeem_clients": [
+        "MPMSTORE",
+        "DCN"
+      ]
+    },
+    "standard_stock": {
+      "stacking_limit": 1,
+      "coupon_type": "MERCHANT",
+      "stock_name": "[Auto]全场券<PoPg_MPM>",
+      "validity_mode": "IMMEDIATE_EFFECT",
+      "available_day": null,
+      "coupon_values": [
+        {
+          "deduction_way": "REDUCTION",
+          "amount": "5"
+        }
+      ],
+      "coupon_conditions": [
+        {
+          "condition_type": "TRANSACTION_MINIMUM",
+          "amount": "105"
+        }
+      ],
+      "stock_inventory": {
+        "max_coupons": "",
+        "max_coupons_by_day": "",
+        "max_coupons_per_user": "2"
+      }
+    }
+  },
+  "createDistChlDCN_PPage-UseMPM": {
+    "activity": {
+      "activity_id": null,
+      "name": "[Auto]全场券<DCN_DCN>",
+      "campaign_id": 86,
+      "campaign_name": "自动化测试专用(勿删改)",
+      "activity_displays": [
+        {
+          "id": 3014,
+          "client_name": "MPMSTORE",
+          "participate_page": "",
+          "description": "自动化测试数据 ",
+          "reminder": "如有任何问题，请进入个人中心后，点击线上咨询或直接拨打4009-109-109联系迪卡侬中国客户关系中心咨询"
+        }
+      ],
+      "distri_tags": [],
+      "exclusive_info": [],
+      "test_flag": "",
+      "double_validation": true,
+      "activity_type": "COUPON",
+      "coupon_biz_type": "ONLINE",
+      "contributor": "NOT_TO",
+      "activity_status": null,
+      "scope": "ALL",
+      "publicly_receive": true,
+      "distri_cilents": [
+        "PROMOTIONPAGE",
+        "DCN"
+      ],
+      "redeem_clients": [
+        "MPMSTORE",
+        "DCN"
+      ],
+      "restricted_products": [],
+      "restricted_persons": [],
+      "restricted_categories": null,
+      "restricted_families": [],
+      "restricted_stores": [],
+      "excluded_products": [],
+      "exclusive_type": ""
+    },
+    "standard_stock": {
+      "stacking_limit": 1,
+      "coupon_type": "MERCHANT",
+      "stock_name": "[Auto]全场券<DCN_DCN>",
+      "validity_mode": "IMMEDIATE_EFFECT",
+      "available_day": null,
+      "coupon_values": [
+        {
+          "deduction_way": "REDUCTION",
+          "amount": 5
+        }
+      ],
+      "coupon_conditions": [
+        {
+          "condition_type": "TRANSACTION_MINIMUM",
+          "amount": 105
+        }
+      ],
+      "stock_inventory": {
+        "max_coupons": 100,
+        "max_coupons_by_day": "10",
+        "max_coupons_per_user": "2"
+      }
+    }
+  },
+  "createDistChlH5_PPage-UseWebPos": {"activity":{"activity_id":null,"name":"[Auto]全场券<H5_WebPos>","campaign_id":86,"campaign_name":"自动化测试专用(勿删改)","activity_displays":[{"id":3124,"client_name":"WEBPOS","participate_page":"","description":"[Auto]全场券<H5_WebPos>","reminder":"如有任何问题，请进入个人中心后，点击线上咨询或直接拨打4009-109-109联系迪卡侬中国客户关系中心咨询"}],"distri_tags":[ "autoTest-H5"],"exclusive_info":[],"test_flag":"","double_validation":false,"activity_type":"COUPON","coupon_biz_type":"OFFLINE","contributor":"NOT_TO","activity_status":null,"scope":"ALL","publicly_receive":true,"distri_cilents":["PROMOTIONPAGE","ACTIVEPAGE"],"redeem_clients":["WEBPOS"],"restricted_products":[],"restricted_persons":[],"restricted_categories":null,"restricted_families":[],"restricted_stores":[],"excluded_products":[],"exclusive_type":""},"standard_stock":{"stacking_limit":1,"coupon_type":"MERCHANT","stock_name":"[Auto]全场券<H5_WebPos>","validity_mode":"IMMEDIATE_EFFECT","available_day":null,"free_shipping_flag":null,"free_shipping_policy":null,"coupon_values":[{"deduction_way":"REDUCTION","amount":"5"}],"coupon_conditions":[{"condition_type":"TRANSACTION_MINIMUM","amount":"105"}],"stock_inventory":{"max_coupons":"100","max_coupons_by_day":"10","max_coupons_per_user":"3"}}},
+  "createDistChlH5_PPage-UseWebPos-2": {"activity":{"activity_id":null,"name":"[Auto]全场券<PP_WebPos>","campaign_id":86,"campaign_name":"自动化测试专用(勿删改)","activity_displays":[{"id":3124,"client_name":"WEBPOS","participate_page":"","description":"[Auto]全场券<PP_WebPos>","reminder":"如有任何问题，请进入个人中心后，点击线上咨询或直接拨打4009-109-109联系迪卡侬中国客户关系中心咨询"}],"distri_tags":[ "autoTest-H5"],"exclusive_info":[],"test_flag":"","double_validation":false,"activity_type":"COUPON","coupon_biz_type":"OFFLINE","contributor":"NOT_TO","activity_status":null,"scope":"ALL","publicly_receive":true,"distri_cilents":["PROMOTIONPAGE","ACTIVEPAGE"],"redeem_clients":["WEBPOS"],"restricted_products":[],"restricted_persons":[],"restricted_categories":null,"restricted_families":[],"restricted_stores":[],"excluded_products":[],"exclusive_type":""},"standard_stock":{"stacking_limit":1,"coupon_type":"MERCHANT","stock_name":"[Auto]全场券<H5_WebPos>","validity_mode":"IMMEDIATE_EFFECT","available_day":null,"free_shipping_flag":null,"free_shipping_policy":null,"coupon_values":[{"deduction_way":"REDUCTION","amount":"5"}],"coupon_conditions":[{"condition_type":"TRANSACTION_MINIMUM","amount":"105"}],"stock_inventory":{"max_coupons":"100","max_coupons_by_day":"10","max_coupons_per_user":"3"}}},
+  "createDistChlOmni-UseOmniWebpos": {"activity":{"activity_id":null,"double_validation":false,"publicly_receive":true,"activity_status":null,"coupon_biz_type":null,"test_flag":"","name":"[Auto]全场券<Omni_WebPos>","activity_type":"COUPON","contributor":"TO","scope":"ALL","campaign_id":86,"campaign_name":null,"restricted_stores":[],"restricted_persons":[],"restricted_families":[],"restricted_products":[],"excluded_products":[],"activity_displays":[{"client_name":"MPMSTORE","reminder":"如有任何问题，请进入个人中心后，点击线上咨询或直接拨打4009-109-109联系迪卡侬中国客户关系中心咨询","participate_page":"","description":"[Auto]全场券<Omni_WebPos>"},{"client_name":"WEBPOS","reminder":"如有任何问题，请进入个人中心后，点击线上咨询或直接拨打4009-109-109联系迪卡侬中国客户关系中心咨询","participate_page":"","description":"[Auto]全场券<Omni_Omni>"}],"distri_tags":["autoTest-H5"],"exclusive_type":"","exclusive_info":[],"distri_cilents":["PROMOTIONPAGE","ACTIVEPAGE","DCN","MPMSTORE"],"redeem_clients":["MPMSTORE","DCN","WEBPOS","OMNISTORE"]},"standard_stock":{"stacking_limit":1,"coupon_type":"MERCHANT","stock_name":"[Auto]全场券<Omni_Omni_WebPos>","validity_mode":"IMMEDIATE_EFFECT","available_day":null,"coupon_values":[{"deduction_way":"REDUCTION","amount":"5"}],"coupon_conditions":[{"condition_type":"TRANSACTION_MINIMUM","amount":"105"}],"stock_inventory":{"max_coupons":"100","max_coupons_by_day":"10","max_coupons_per_user":"3"}}},
+  "createDistChlOmni-UseOmniMPMStore": {"activity":{"activity_id":null,"double_validation":false,"publicly_receive":true,"activity_status":null,"coupon_biz_type":null,"test_flag":"","name":"[Auto]全场券<Omni_MPMStore>","activity_type":"COUPON","contributor":"TO","scope":"ALL","campaign_id":86,"campaign_name":null,"restricted_stores":[],"restricted_persons":[],"restricted_families":[],"restricted_products":[],"excluded_products":[],"activity_displays":[{"client_name":"MPMSTORE","reminder":"如有任何问题，请进入个人中心后，点击线上咨询或直接拨打4009-109-109联系迪卡侬中国客户关系中心咨询","participate_page":"","description":"[Auto]全场券<Omni_MPMStore>"},{"client_name":"WEBPOS","reminder":"如有任何问题，请进入个人中心后，点击线上咨询或直接拨打4009-109-109联系迪卡侬中国客户关系中心咨询","participate_page":"","description":"[Auto]全场券<Omni_Omni>"}],"distri_tags":["autoTest-H5"],"exclusive_type":"","exclusive_info":[],"distri_cilents":["PROMOTIONPAGE","ACTIVEPAGE","DCN","MPMSTORE"],"redeem_clients":["MPMSTORE","DCN","WEBPOS","OMNISTORE"]},"standard_stock":{"stacking_limit":1,"coupon_type":"MERCHANT","stock_name":"[Auto]全场券<Omni_Omni_MPMStore>","validity_mode":"IMMEDIATE_EFFECT","available_day":null,"coupon_values":[{"deduction_way":"REDUCTION","amount":"5"}],"coupon_conditions":[{"condition_type":"TRANSACTION_MINIMUM","amount":"105"}],"stock_inventory":{"max_coupons":"100","max_coupons_by_day":"10","max_coupons_per_user":"3"}}}
+}

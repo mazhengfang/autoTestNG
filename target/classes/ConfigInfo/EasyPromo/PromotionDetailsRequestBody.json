@@ -1,10 +1,38 @@
 {
-  "PromotionDetails_TestBody_1":
-  {
-    "user":{
-      "person_id":"15005083203"
+  "PromotionDetails_TestBody_1": {
+    "user": {
+      "person_id": "15005083203",
+      "external_user_info": {
+        "identity_type": 2,
+        "identity_code": "oOwvn5UJDMCc2CvJUJyp9v0mGGH4"
+      }
     },
-    "client_name":"MPMSTORE",
-    "order_source":"FACADE"
+      "client_name": "MPMSTORE",
+      "order_source": "FACADE"
+
+  },
+  "PromotionDetails_TestBody_5": {
+    "user": {
+      "person_id": "15005083203",
+      "external_user_info": {
+        "identity_type": 2,
+        "identity_code": "oOwvn5UJDMCc2CvJUJyp9v0mGGH4"
+      }
+    },
+      "client_name": "DCN",
+      "order_source": "FACADE"
+
+  },
+  "PromotionDetails_TestBody_6": {
+    "user": {
+      "person_id": "15005083203",
+      "external_user_info": {
+        "identity_type": 2,
+        "identity_code": "oOwvn5UJDMCc2CvJUJyp9v0mGGH4"
+      }
+    },
+      "client_name": "WEBPOS",
+      "order_source": "FACADE"
+
   }
 }

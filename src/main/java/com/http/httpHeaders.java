@@ -24,6 +24,11 @@ public class httpHeaders {
         return this;
     }
 
+    public httpHeaders Set(String name, String value) {
+        this._headers.replace(name,value);
+        return this;
+    }
+
     public String get(String name) {
         return (String)this._headers.get(name);
     }

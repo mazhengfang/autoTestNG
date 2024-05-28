@@ -7,12 +7,13 @@
         "identity_code": "oOwvn5UJDMCc2CvJUJyp9v0mGGH4"
       }
     },
-    "client_name": "MPMSTORE",
+
     "products": [
       {
         "dsm_code": "308291",
         "model_code": "8641950",
-        "sku_id": "4272581"
+        "sku_id": "4272581",
+        "family_id":"345"
       }
     ],
     "redirect_pdp_map": {
@@ -27,12 +28,13 @@
         "identity_code": "oOwvn5UJDMCc2CvJUJyp9v0mGGH4"
       }
     },
-    "client_name": "MPMSTORE",
+
     "products": [
       {
         "dsm_code": "154253",
         "model_code": "8363990",
-        "sku_id": "2074681"
+        "sku_id": "2074681",
+        "family_id":"345"
       }
     ],
     "redirect_pdp_map": {
@@ -47,12 +49,13 @@
         "identity_code":"oOwvn5dz_Iw2Llb8U_EwrOwpZEII"
       }
     },
-    "client_name": "MPMSTORE",
+
     "products": [
       {
         "dsm_code": "154253",
         "model_code": "8363990",
-        "sku_id": "2074681"
+        "sku_id": "2074681",
+        "family_id":"345"
       }
     ],
     "redirect_pdp_map": {
@@ -67,12 +70,13 @@
         "identity_code": "oOwvn5UJDMCc2CvJUJyp9v0mGGH4"
       }
     },
-    "client_name": "MPMSTORE",
+
     "products": [
       {
         "dsm_code":"15053",
         "model_code":"8324625",
-        "sku_id":"520667"
+        "sku_id":"520667",
+        "family_id":"345"
       }
     ],
     "redirect_pdp_map": {

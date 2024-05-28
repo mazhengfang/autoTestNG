@@ -6,5 +6,21 @@
     },
     "client_name":"MPMSTORE",
     "order_source":"FACADE"
+  },
+  "RedeemCoupon_TestBody_5":
+  {
+    "user":{
+      "person_id":"15005083203"
+    },
+    "client_name":"DCN",
+    "order_source":"FACADE"
+  },
+  "RedeemCoupon_TestBody_6":
+  {
+    "user":{
+      "person_id":"15005083203"
+    },
+    "client_name":"WEBPOS",
+    "order_source":"WEBPOS"
   }
 }

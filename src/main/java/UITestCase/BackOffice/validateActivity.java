@@ -150,19 +150,18 @@ public class validateActivity {
 
 
             //H5
-            String h5Path = "//*[@id=\"pane-first\"]/div/div[6]/form/div/div[3]/div/div/p";
+            String h5Path = "//*[@id=\"pane-first\"]/div/div[6]/form/div/div[4]/div/div/p";
             String h5 = driver.findElement(By.xpath(h5Path)).getText();
             boCommonFunction.JsonObject("H5", h5, activityInfo);
 
             //Participating users
-            String participatingUsersPath = "//*[@id=\"pane-first\"]/div/div[6]/form/div/div[4]/div/div/p/span";
+            String participatingUsersPath = "//*[@id=\"pane-first\"]/div/div[6]/form/div/div[5]/div/div/p/span";
             String participatingUsers = driver.findElement(By.xpath(participatingUsersPath)).getText();
             boCommonFunction.JsonObject("Participating Users", participatingUsers, activityInfo);
 
 
-
             //ApplicableGoodsType
-            String applicableGoodsTypePath = "//*[@id=\"pane-first\"]/div/div[6]/form/div/div[5]/div[1]/div/div/span";
+            String applicableGoodsTypePath = "//*[@id=\"pane-first\"]/div/div[6]/form/div/div[6]/div[1]/div/div/span";
             String applicableGoodsType = driver.findElement(By.xpath(applicableGoodsTypePath)).getText();
             boCommonFunction.JsonObject("Applicable Goods Type", applicableGoodsType, activityInfo);
 

@@ -9,18 +9,22 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.alibaba.fastjson.JSON.parseObject;
+
 public class mySQL {
     static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-    static final String url = "jdbc:mysql://127.0.0.1:13306/epo_ep_pp?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
+//    static final String url = "jdbc:mysql://127.0.0.1:13306/epo_ep_pp?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
+    static final String url = "jdbc:mysql://jumpserver-azr.pp.dktapp.cloud:33061/epo_ep_pp?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
 
 //    static final String user = "epo_app_pp@epo-mysql-rds01-ppd";
-    static final String user = "epo_app_pp@epo-mysql-rds03-ppd";
-
-    static final String password = "5SjAzTZepEbSkxs8";
+//    static final String user = "epo_app_pp@epo-mysql-rds03-ppd";
+//    static final String password = "5SjAzTZepEbSkxs8";
+    static final String user = "e20bd439-86a6-49cf-915c-1ee4a124181e";
+    static final String password = "FBJFbS63kSTGcaHw";
     Connection conn = null;
     Statement stmt = null;
 
-    public void dbMySQLConnect() throws InterruptedException, ClassNotFoundException, SQLException {
+    public void dbMySQLConnect(String user, String password) throws InterruptedException, ClassNotFoundException, SQLException {
 
         int MAX_RETRIES = 5;
         Class.forName(JDBC_DRIVER);
@@ -33,8 +37,11 @@ public class mySQL {
                 if (i == MAX_RETRIES) throw e;
             }
         }
-        if (!conn.isClosed())
-            System.out.println("Succeed connecting to DB.");
+
+        // if (!conn.isClosed())
+        // System.out.println("Succeed connecting to DB.");
+        if (conn.isClosed())
+            System.out.println(" connecting to DB is closed.");
     }
 
     public void dbMySQLClose() throws SQLException {
@@ -45,7 +52,7 @@ public class mySQL {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        System.out.println("Close DB.");
+//        System.out.println("Close DB.");
     }
 
     public List<String> getTableField(String dataBase, String tableName) throws SQLException, IOException {
@@ -94,6 +101,7 @@ public class mySQL {
             for (int i = 0; i < cnt; i++
             ) {
                 record.put(columns.get(i), rs.getString(columns.get(i)));
+
 //                String info = String.format("[%s->%s]", columns.get(i), rs.getString(columns.get(i)));
 //                System.out.println(info);
             }
@@ -142,16 +150,21 @@ public class mySQL {
         return list;
     }
 
-    public JSONObject record(String DB, String tableName, String sql) throws Exception {
+    public JSONObject record(String DB,String user, String password, String tableName, String sql) throws Exception {
 
-        mySQL mySQL = new mySQL();
-        mySQL.dbMySQLConnect();
+//        mySQL mySQL = new mySQL();
+//        mySQL.dbMySQLConnect();
+
+        dbMySQLConnect(user,password);
 
 //        List<String> e = b.getTableField("epo_ep_pp","coupon");
-        List<String> tableField = mySQL.getTableField(DB, tableName);
-        JSONObject record = mySQL.getRecords(sql, tableField);
-        System.out.println(record.getString("stock_id") +" " + record.getString("code") +" " + record.getString("status"));
-        mySQL.dbMySQLClose();
+//        List<String> tableField = mySQL.getTableField(DB, tableName);
+//        JSONObject record = mySQL.getRecords(sql, tableField);
+        List<String> tableField = getTableField(DB, tableName);
+        JSONObject record = getRecords(sql, tableField);
+//        System.out.println(record.getString("stock_id") +" " + record.getString("code") +" " + record.getString("status"));
+//        mySQL.dbMySQLClose();
+       dbMySQLClose();
 
         return record;
     }

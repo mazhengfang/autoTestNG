@@ -8,5 +8,25 @@
     "order_source":"FACADE",
     "refund_apply_id":"",
     "partial_refund":"false"
+  },
+  "RefundCoupon_TestBody_5":
+  {
+    "user":{
+      "person_id":"15005083670"
+    },
+    "client_name":"DCN",
+    "order_source":"FACADE",
+    "refund_apply_id":"",
+    "partial_refund":"false"
+  },
+  "RefundCoupon_TestBody_6":
+  {
+    "user":{
+      "person_id":"15005083670"
+    },
+    "client_name":"WEBPOS",
+    "order_source":"WEBPOS",
+    "refund_apply_id":"",
+    "partial_refund":"false"
   }
 }

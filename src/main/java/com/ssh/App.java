@@ -24,7 +24,7 @@ public class App {
 //        session.setPortForwardingL(15432, "fcddv1pgs11.cn-e.azr.dktinfra.cloud", 60901);
 //        session.setPortForwardingL(13306, "epo-mysql-rds01-ppd.mysql.database.chinacloudapi.cn", 3306);
         session.setPortForwardingL(13306, "epo-mysql-rds03-ppd.mysql.database.chinacloudapi.cn", 3306);
-        System.out.println("SSH connected");
+//        System.out.println("SSH connected");
 
     }
     public void disconnect() throws Exception {

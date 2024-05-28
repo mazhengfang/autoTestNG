@@ -11,11 +11,8 @@ import java.util.HashMap;
 
 public class boCommonFunction {
 
-
-
     public void boCommonFunction(){
         // to do
-
     }
 
     public void clickByXpath(WebDriver driver, String byElement){
@@ -38,26 +35,13 @@ public class boCommonFunction {
         action.moveToElement(actionElement).perform();
         actionElement.sendKeys(value);
     }
+
     public void sendKeysByXpath(WebDriver driver, String byElement, String value){
         Actions action = new Actions(driver);
         WebElement actionElement = driver.findElement(By.xpath(byElement));
         action.moveToElement(actionElement).perform();
         actionElement.sendKeys(value);
     }
-
-//    public JSONArray JsonObject(String name, String value,JSONArray arr){
-//        JSONObject activityItem = new JSONObject();
-//        activityItem.put(name,value);
-//        arr.add(activityItem);
-//        return arr;
-//    }
-
-//    public JSONArray JsonObject(String name, String value, JSONArray arr){
-//        HashMap<String,String> activityItem = new HashMap<String, String> ();
-//        activityItem.put(name,value);
-//        arr.add(activityItem);
-//        return arr;
-//    }
 
     public HashMap<String,String> JsonObject(String name, String value, HashMap arr){
         arr.put(name,value);

@@ -15,7 +15,7 @@
     "order_item_promos": [
       {
         "id": 9146,
-        "item_type": "ITEM",
+        "item_type": "GOODS",
         "item_id": "4272581",
         "model_code": "8641950",
         "dsm_code": "308291",
@@ -28,7 +28,7 @@
       },
       {
         "id": 9147,
-        "item_type": "ITEM",
+        "item_type": "GOODS",
         "item_id": "616098",
         "model_code": "1163704",
         "dsm_code": "3744",
@@ -100,7 +100,7 @@
     "order_item_promos": [
       {
         "id": 9505,
-        "item_type": "ITEM",
+        "item_type": "GOODS",
         "item_id": "4272581",
         "model_code": "8641950",
         "dsm_code": "308291",
@@ -113,7 +113,7 @@
       },
       {
         "id": 9506,
-        "item_type": "ITEM",
+        "item_type": "GOODS",
         "item_id": "520667",
         "model_code": "8324625",
         "dsm_code": "15053",
@@ -175,7 +175,7 @@
     "order_item_promos": [
       {
         "id": 9712,
-        "item_type": "ITEM",
+        "item_type": "GOODS",
         "item_id": "4272581",
         "model_code": "8641950",
         "dsm_code": "308291",
@@ -188,7 +188,7 @@
       },
       {
         "id": 9713,
-        "item_type": "ITEM",
+        "item_type": "GOODS",
         "item_id": "520667",
         "model_code": "8324625",
         "dsm_code": "15053",
@@ -233,5 +233,89 @@
         "discount_amount": 5.00
       }
     ]
-  }
+  },  "promotionDetails_ResponseData_6":
+{
+  "order_promo": {
+    "id": 5076,
+    "order_source": "WEBPOS",
+    "order_id": "test20230816005q1",
+    "person_id": "15005083203",
+    "total_price": 519.70,
+    "coupon_discount_amount": 5.00,
+    "product_discount_amount": 100.00,
+    "shipping_fee": null,
+    "actual_amount": 414.70
+  },
+  "order_item_promos": [
+    {
+      "id": 9146,
+      "item_type": "GOODS",
+      "item_id": "4272581",
+      "model_code": "8641950",
+      "dsm_code": "308291",
+      "skuId": "4272581",
+      "quantity": 1,
+      "unit_price": 399.90,
+      "coupon_discount_amount": 3.58,
+      "product_discount_amount": 100.00,
+      "actual_amount": 296.32
+    },
+    {
+      "id": 9147,
+      "item_type": "GOODS",
+      "item_id": "616098",
+      "model_code": "1163704",
+      "dsm_code": "3744",
+      "skuId": "616098",
+      "quantity": 2,
+      "unit_price": 59.90,
+      "coupon_discount_amount": 1.42,
+      "product_discount_amount": 0.00,
+      "actual_amount": 118.38
+    }
+  ],
+  "order_item_promo_details": [
+    {
+      "id": 10057,
+      "order_item_promo_id": 9146,
+      "sequence_id": 0,
+      "activity_id": 0,
+      "activity_type": 0,
+      "res_instance_id": null,
+      "origin_amount": 399.90,
+      "deduction_amount": 100.00
+    },
+    {
+      "id": 10058,
+      "order_item_promo_id": 9146,
+      "sequence_id": 1,
+      "activity_id": 13742,
+      "activity_type": 1,
+      "res_instance_id": "2309110106430000300b",
+      "origin_amount": 299.90,
+      "deduction_amount": 3.58
+    },
+    {
+      "id": 10059,
+      "order_item_promo_id": 9147,
+      "sequence_id": 0,
+      "activity_id": 13742,
+      "activity_type": 1,
+      "res_instance_id": "2309110106430000300b",
+      "origin_amount": 119.80,
+      "deduction_amount": 1.42
+    }
+  ],
+  "coupon_use_details": [
+    {
+      "code": "2309110106430000300b",
+      "name": "[Auto]全场券202309111045",
+      "type": "MERCHANT",
+      "stock_id": 2309110101100002,
+      "scope": "ALL",
+      "to_type": 2,
+      "discount_amount": 5.00
+    }
+  ]
+}
   }

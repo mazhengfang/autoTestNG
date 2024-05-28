@@ -62,7 +62,7 @@ public class commonFunction {
 
     //当前时间 unix时间戳
     public static Long getCurrentTimeUnix() {
-        Long time = System.currentTimeMillis() / 1000L;
+        Long time = System.currentTimeMillis() ;
         return time;
     }
 
@@ -72,6 +72,7 @@ public class commonFunction {
         String currenttime = sdf.format(new Date());
         return currenttime;
     }
+
     public static String getCurrentTimePlus5(String pattern,int i) {
         Date now = new Date();
         SimpleDateFormat sdf = new SimpleDateFormat(pattern);
